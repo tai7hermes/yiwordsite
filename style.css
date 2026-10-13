@@ -1,0 +1,49 @@
+:root{
+  --ink:#1a1a2e; --gold:#c5a028; --jade:#2d6e5f; --pale:#f5f0e8; --sky:#e8e0d0;
+  --red:#8b2c2c; --dark:#222; --mid:#5f5f5f; --light:#faf8f5; --line:#d8d0c0; --white:#fff;
+  --yang:#d4a017; --yin:#2c3e50;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"PingFang TC","Microsoft JhengHei","Noto Sans TC",sans-serif;color:var(--dark);background:var(--light);line-height:1.7}
+a{color:var(--jade);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:var(--ink);color:#fff;padding:14px 20px;position:sticky;top:0;z-index:10}
+header .brand{font-size:1.6rem;font-weight:800;letter-spacing:.02em}
+header .brand span{color:var(--gold);font-weight:400;font-size:.85rem;margin-left:8px}
+nav{background:var(--jade)}
+nav ul{display:flex;flex-wrap:wrap;list-style:none;max-width:1100px;margin:0 auto}
+nav a{display:block;padding:9px 16px;color:#fff;font-size:.95rem}
+nav a.active,nav a:hover{background:var(--ink);text-decoration:none}
+main{max-width:1100px;margin:24px auto;padding:0 16px}
+h1{color:var(--ink);font-size:1.6rem;margin:18px 0 10px;border-left:6px solid var(--gold);padding-left:12px}
+h2{color:var(--ink);font-size:1.25rem;margin:26px 0 8px;border-bottom:2px solid var(--sky);padding-bottom:4px}
+h3{color:var(--jade);font-size:1.05rem;margin:18px 0 6px}
+p{margin:8px 0}
+.small{font-size:.85rem;color:var(--mid)}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px;margin:14px 0;box-shadow:0 1px 3px rgba(26,26,46,.06)}
+.card:hover{border-color:var(--gold);box-shadow:0 2px 8px rgba(197,160,40,.15)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.hexagram-card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px;text-align:center;transition:transform .15s,border-color .15s}
+.hexagram-card:hover{transform:translateY(-2px);border-color:var(--gold)}
+.hexagram-symbol{font-size:2.2rem;color:var(--ink);line-height:1.2}
+.hexagram-name{font-size:.95rem;font-weight:600;color:var(--ink);margin:6px 0 2px}
+.hexagram-id{font-size:.75rem;color:var(--mid)}
+.cite-box{background:var(--pale);border-left:4px solid var(--gold);padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0}
+.cite-box .src{font-size:.8rem;color:var(--mid);margin-top:4px}
+table{border-collapse:collapse;width:100%;margin:12px 0}
+th,td{border:1px solid var(--line);padding:8px 12px;text-align:left;font-size:.9rem}
+th{background:var(--pale);color:var(--ink);font-weight:600}
+tr:nth-child(even){background:var(--light)}
+footer{background:var(--ink);color:#aaa;text-align:center;padding:20px;margin-top:40px;font-size:.85rem}
+footer a{color:var(--gold)}
+.warn{background:#fff3cd;border:1px solid #ffc107;border-radius:8px;padding:12px 16px;margin:12px 0;font-size:.9rem}
+.warn strong{color:#856404}
+.lang-switch{position:absolute;top:14px;right:20px;font-size:.85rem}
+.lang-switch a{color:var(--gold);margin-left:8px}
+.lang-switch a.active{color:#fff;font-weight:600}
+@media(max-width:768px){
+  .grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}
+  .hexagram-symbol{font-size:1.8rem}
+  nav ul{flex-direction:column}
+  nav a{padding:8px 12px}
+}
