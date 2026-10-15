@@ -1,0 +1,2636 @@
+{
+  "H01": {
+    "name": "The",
+    "unicode": "Creative",
+    "units": {
+      "H01-JUDGMENT": {
+        "label": "Judgment",
+        "original": "乾：元亨。利貞。",
+        "translation": "A strong beginning and smooth progress. It is favorable to remain steadfast and principled."
+      },
+      "H01-L1": {
+        "label": "Line 1",
+        "original": "初九：潛龍勿用。",
+        "translation": "The dragon remains hidden. The time is not yet right for action."
+      },
+      "H01-L2": {
+        "label": "Line 2",
+        "original": "九二：見龍在田，利見大人。",
+        "translation": "The dragon appears in the field. It is favorable to meet a great person."
+      },
+      "H01-L3": {
+        "label": "Line 3",
+        "original": "九三：君子終日乾乾，夕惕若；厲，无咎。",
+        "translation": "The noble person works diligently all day and remains alert at night. The situation is dangerous, but careful conduct prevents blame."
+      },
+      "H01-L4": {
+        "label": "Line 4",
+        "original": "九四：或躍在淵，无咎。",
+        "translation": "The dragon may leap upward or remain in the depths. Respond to the timing, and there is no blame."
+      },
+      "H01-L5": {
+        "label": "Line 5",
+        "original": "九五：飛龍在天，利見大人。",
+        "translation": "The dragon flies in the sky. It is favorable to meet a great person."
+      },
+      "H01-L6": {
+        "label": "Line 6",
+        "original": "上九：亢龍，有悔。",
+        "translation": "The dragon rises too high. Regret will follow."
+      },
+      "H01-USE": {
+        "label": "Use of Nine",
+        "original": "用九：見羣龍无首，吉。",
+        "translation": "When the group of dragons appears without anyone demanding to lead, there is good fortune."
+      }
+    }
+  },
+  "H02": {
+    "name": "The",
+    "unicode": "Receptive",
+    "units": {
+      "H02-JUDGMENT": {
+        "label": "Judgment",
+        "original": "坤：元亨。利牝馬之貞。君子有攸往，先迷後得主。利西南得朋，東北喪朋。安貞，吉。",
+        "translation": "A receptive and supportive approach brings progress. Stay as steady as a mare. If the noble person takes the lead, they may lose their way; by following what is right, they find guidance. Friends are found in the southwest and lost in the northeast. Calm steadfastness brings good fortune."
+      },
+      "H02-L1": {
+        "label": "Line 1",
+        "original": "初六：履霜，堅冰至。",
+        "translation": "Frost underfoot signals that solid ice is approaching."
+      },
+      "H02-L2": {
+        "label": "Line 2",
+        "original": "六二：直方大，不習无不利。",
+        "translation": "Straight, square, and broad. Without forcing the result, everything is favorable."
+      },
+      "H02-L3": {
+        "label": "Line 3",
+        "original": "六三：含章，可貞。或從王事，无成有終。",
+        "translation": "Keep your abilities contained and remain steadfast. If you serve the king, do not claim the achievement, but bring the work to completion."
+      },
+      "H02-L4": {
+        "label": "Line 4",
+        "original": "六四：括囊，无咎无譽。",
+        "translation": "A tied sack. There is neither blame nor praise."
+      },
+      "H02-L5": {
+        "label": "Line 5",
+        "original": "六五：黃裳，元吉。",
+        "translation": "A yellow lower garment symbolizes balance and proper conduct. Great good fortune."
+      },
+      "H02-L6": {
+        "label": "Line 6",
+        "original": "上六：龍戰于野，其血玄黃。",
+        "translation": "Dragons fight in the open country. Their blood is dark and yellow."
+      },
+      "H02-USE": {
+        "label": "Use of Six",
+        "original": "用六：利永貞。",
+        "translation": "When all sixes are used, lasting steadfastness is favorable."
+      }
+    }
+  },
+  "H03": {
+    "name": "Difficulty",
+    "unicode": "at",
+    "units": {
+      "H03-JUDGMENT": {
+        "label": "Judgment",
+        "original": "屯：元亨，利貞。勿用有攸往，利建侯。",
+        "translation": "A promising beginning can lead to progress. Stay steadfast. Do not rush forward. It is favorable to appoint capable helpers."
+      },
+      "H03-L1": {
+        "label": "Line 1",
+        "original": "初九：磐桓，利居貞，利建侯。",
+        "translation": "The difficulty (its subject has) in advancing. It will be favorable for him to abide steadfast and principled; favorable (also) to be made a feudal ruler."
+      },
+      "H03-L2": {
+        "label": "Line 2",
+        "original": "六二：屯如邅如，乘馬班如，匪寇婚媾，女子貞不字，十年乃字。",
+        "translation": "Progress is difficult, and the horses turn back. The visitor is not a robber but a marriage seeker. The young woman remains steadfast and does not marry. After ten years, she marries."
+      },
+      "H03-L3": {
+        "label": "Line 3",
+        "original": "六三：即鹿无虞，惟入于林中，君子幾不如舍，往吝。",
+        "translation": "Chasing deer without a guide leads only into the forest. The noble person sees the danger and stops. Going on would bring humiliation."
+      },
+      "H03-L4": {
+        "label": "Line 4",
+        "original": "六四：乘馬班如，求婚媾，往，吉无不利。",
+        "translation": "(its subject as a lady), the horses of whose chariot appear in retreat. She seeks, however, (the help of) him who seeks her to be his wife. Advance will be fortunate; all will turn out favorablely."
+      },
+      "H03-L5": {
+        "label": "Line 5",
+        "original": "九五：屯其膏；小貞吉，大貞凶。",
+        "translation": "The difficulties in the way of (its subject's) dispensing the rich favors that might be expected from him. With steadfast conduct good fortune follows in small things; (even) with them in great things misfortune follows."
+      },
+      "H03-L6": {
+        "label": "Line 6",
+        "original": "上六：乘馬班如，泣血漣如。",
+        "translation": "One is with the horses of his chariot obliged to retreat, and weeping tears of blood in streams."
+      }
+    }
+  },
+  "H04": {
+    "name": "Youthful",
+    "unicode": "Folly",
+    "units": {
+      "H04-JUDGMENT": {
+        "label": "Judgment",
+        "original": "蒙：亨。匪我求童蒙，童蒙求我。初筮告，再三瀆，瀆則不告。利貞。",
+        "translation": "Progress is possible. The teacher does not seek the inexperienced student; the student comes to the teacher. A sincere first question receives instruction. Repeated questioning becomes disrespectful and is not answered. Steadfastness is favorable."
+      },
+      "H04-L1": {
+        "label": "Line 1",
+        "original": "初六：發蒙，利用刑人，用說桎梏，以往吝。",
+        "translation": "(has respect to) the dispelling of ignorance. It is favorable to use punishment (for that purpose), and to remove the shackles (from the mind). But going on in that way (of punishment) will cause regret."
+      },
+      "H04-L2": {
+        "label": "Line 2",
+        "original": "九二：包蒙吉，納婦吉，子克家。",
+        "translation": "One is exercising forbearance with the ignorant, in which good fortune follows; and admitting (even the goodness of women, which will also be fortunate. (He may be described also as) a son able to (sustain the burden of) his family."
+      },
+      "H04-L3": {
+        "label": "Line 3",
+        "original": "六三：勿用取女，見金夫，不有躬，无攸利。",
+        "translation": "(seems to say) that one should not marry a woman whose emblem it might be, for that, when she sees a man of wealth, she will not keep her person from him, and in no wise will advantage come from her."
+      },
+      "H04-L4": {
+        "label": "Line 4",
+        "original": "六四：困蒙，吝。",
+        "translation": "Bound in chains of ignorance. There will be regret."
+      },
+      "H04-L5": {
+        "label": "Line 5",
+        "original": "六五：童蒙，吉。",
+        "translation": "A simple lad without experience. Good fortune follows."
+      },
+      "H04-L6": {
+        "label": "Line 6",
+        "original": "上九：擊蒙，不利為寇，利禦寇。",
+        "translation": "Correcting ignorance should prevent harm, not cause it. Striking the inexperienced person is not favorable; protecting that person from harm is favorable."
+      }
+    }
+  },
+  "H05": {
+    "name": "Waiting",
+    "unicode": "需",
+    "units": {
+      "H05-JUDGMENT": {
+        "label": "Judgment",
+        "original": "需：有孚，光亨。貞吉，利涉大川。",
+        "translation": "With sincerity, success becomes clear. Steadfastness brings good fortune. It is favorable to cross the great river."
+      },
+      "H05-L1": {
+        "label": "Line 1",
+        "original": "初九：需于郊，利用恆，无咎。",
+        "translation": "One is waiting in the distant border. It will be well for him constantly to maintain (the purpose thus shown), in which case there will be no blame."
+      },
+      "H05-L2": {
+        "label": "Line 2",
+        "original": "九二：需于沙，小有言，終吉。",
+        "translation": "One is waiting on the sand (of the mountain stream). He will (suffer) the small (injury of) being spoken (against), but in the end good fortune follows."
+      },
+      "H05-L3": {
+        "label": "Line 3",
+        "original": "九三：需于泥，致寇至。",
+        "translation": "One is in the mud (close by the stream). He as a result invites the approach of injury."
+      },
+      "H05-L4": {
+        "label": "Line 4",
+        "original": "六四：需于血，出自穴。",
+        "translation": "One is waiting in (the place of) blood. But he will get out of the cavern."
+      },
+      "H05-L5": {
+        "label": "Line 5",
+        "original": "九五：需于酒食，貞吉。",
+        "translation": "One is waiting amidst the appliances of a feast. Through his steadfast conduct good fortune follows."
+      },
+      "H05-L6": {
+        "label": "Line 6",
+        "original": "上六：入于穴，有不速之客三人來，敬之終吉。",
+        "translation": "One is entered into the cavern. (But) there are three guests coming, without being urged, (to his help). If he receives them respectfully, good fortune follows in the end."
+      }
+    }
+  },
+  "H06": {
+    "name": "Conflict",
+    "unicode": "訟",
+    "units": {
+      "H06-JUDGMENT": {
+        "label": "Judgment",
+        "original": "訟：有孚，窒，惕，中吉，終凶。利見大人，不利涉大川。",
+        "translation": "Even when your position is sincere, conflict brings obstruction. Caution in the middle brings good fortune; pressing the dispute to the end brings misfortune. It is favorable to see the great person, but not to cross the great river."
+      },
+      "H06-L1": {
+        "label": "Line 1",
+        "original": "初六：不永所事，小有言，終吉。",
+        "translation": "One is not perpetuating the matter about which (the contention is). He will suffer the small (injury) of being spoken against, but the end will be fortunate."
+      },
+      "H06-L2": {
+        "label": "Line 2",
+        "original": "九二：不克訟，歸而逋，其邑人三百戶无眚。",
+        "translation": "One is unequal to the contention. If he retire and keep concealed (where) the inhabitants of his city are (only) three hundred families, he will incur no blame."
+      },
+      "H06-L3": {
+        "label": "Line 3",
+        "original": "六三：食舊德，貞厲，終吉。或從王事，无成。",
+        "translation": "One is keeping in the old place assigned for his support, and firmly correct. Perilous as the position is, good fortune follows in the end. Should he perhaps engage in the king's business, he will not (claim the merit of) achievement."
+      },
+      "H06-L4": {
+        "label": "Line 4",
+        "original": "九四：不克訟，復即命渝，安貞吉。",
+        "translation": "One is unequal to the contention. He returns to (the study of Heaven's) ordinances, changes (his wish to contend), and rests in being steadfast and principled. Good fortune follows."
+      },
+      "H06-L5": {
+        "label": "Line 5",
+        "original": "九五：訟，元吉。",
+        "translation": "One is contending; and with great good fortune."
+      },
+      "H06-L6": {
+        "label": "Line 6",
+        "original": "上九：或錫之鞶帶，終朝三褫之。",
+        "translation": "Its subject may have the leathern belt conferred on him (by the sovereign), and thrice it will be taken from him in a morning."
+      }
+    }
+  },
+  "H07": {
+    "name": "The",
+    "unicode": "Army",
+    "units": {
+      "H07-JUDGMENT": {
+        "label": "Judgment",
+        "original": "師：貞丈人吉，无咎。",
+        "translation": "The army needs discipline and an experienced leader. Then there is good fortune and no blame."
+      },
+      "H07-L1": {
+        "label": "Line 1",
+        "original": "初六：師出以律，否臧，凶。",
+        "translation": "The host going forth according to the rules (for such a movement). If these be not good, misfortune follows."
+      },
+      "H07-L2": {
+        "label": "Line 2",
+        "original": "九二：在師中吉，无咎；王三錫命。",
+        "translation": "The leader stands at the center of the army. Good fortune and no blame. The king grants authority three times."
+      },
+      "H07-L3": {
+        "label": "Line 3",
+        "original": "六三：師或輿尸，凶。",
+        "translation": "The host may, possibly, have many inefficient leaders. Misfortune follows."
+      },
+      "H07-L4": {
+        "label": "Line 4",
+        "original": "六四：師左次，无咎。",
+        "translation": "The host in retreat. There is no blame."
+      },
+      "H07-L5": {
+        "label": "Line 5",
+        "original": "六五：田有禽，利執言，无咎。長子帥師，弟子輿尸，貞凶。",
+        "translation": "There is game in the field, and it is favorable to capture it. There is no blame. Let the eldest son lead the army. If inexperienced followers carry the dead, steadfastness still ends in misfortune."
+      },
+      "H07-L6": {
+        "label": "Line 6",
+        "original": "上六：大君有命，開國承家，小人勿用。",
+        "translation": "The great ruler delivering his charges, (appointing some) to be rulers of states, and others to undertake the headship of clans; but lesser people should not be employed (in such positions)."
+      }
+    }
+  },
+  "H08": {
+    "name": "Holding",
+    "unicode": "Together",
+    "units": {
+      "H08-JUDGMENT": {
+        "label": "Judgment",
+        "original": "比：吉。原筮元永貞，无咎。不寧方來，後夫凶。",
+        "translation": "Joining with others brings good fortune. Examine whether your character is broad, constant, and steadfast. If so, there is no blame. Those who are unsettled will come, but latecomers meet misfortune."
+      },
+      "H08-L1": {
+        "label": "Line 1",
+        "original": "初六：有孚，比之，无咎。有孚盈缶，終來有它，吉。",
+        "translation": "One is seeking by his sincerity to win the attachment of his object. There is no blame. Let (the breast) be full of sincerity as an earthenware vessel is of its contents, and it will in the end bring other advantages."
+      },
+      "H08-L2": {
+        "label": "Line 2",
+        "original": "六二：比之自內，貞吉。",
+        "translation": "The wish to unite with others comes from within. Steadfastness brings good fortune."
+      },
+      "H08-L3": {
+        "label": "Line 3",
+        "original": "六三：比之匪人。",
+        "translation": "One seeking for union with such as ought not to be associated with."
+      },
+      "H08-L4": {
+        "label": "Line 4",
+        "original": "六四：外比之，貞吉。",
+        "translation": "One seeking for union with the one beyond himself. With steadfastness good fortune follows."
+      },
+      "H08-L5": {
+        "label": "Line 5",
+        "original": "九五：顯比。王用三驅，失前禽，邑人不誡，吉。",
+        "translation": "The king hunts from three sides and leaves an open path for the game ahead. The people do not warn one another. Good fortune."
+      },
+      "H08-L6": {
+        "label": "Line 6",
+        "original": "上六：比之无首，凶。",
+        "translation": "Seeking union without a proper beginning ends in misfortune."
+      }
+    }
+  },
+  "H09": {
+    "name": "Small",
+    "unicode": "Taming",
+    "units": {
+      "H09-JUDGMENT": {
+        "label": "Judgment",
+        "original": "小畜：亨。密雲不雨，自我西郊。",
+        "translation": "Small forces can restrain and shape events, bringing progress. Dense clouds gather, but no rain falls from our western region."
+      },
+      "H09-L1": {
+        "label": "Line 1",
+        "original": "初九：復自道，何其咎，吉。",
+        "translation": "One is returning and pursuing his own course. What mistake should he fall into? Good fortune follows."
+      },
+      "H09-L2": {
+        "label": "Line 2",
+        "original": "九二：牽復，吉。",
+        "translation": "One is drawn back to the proper path. Good fortune."
+      },
+      "H09-L3": {
+        "label": "Line 3",
+        "original": "九三：輿說輻，夫妻反目。",
+        "translation": "A carriage, the strap beneath which has been removed, or of a husband and wife looking on each other with averted eyes."
+      },
+      "H09-L4": {
+        "label": "Line 4",
+        "original": "六四：有孚，血去惕出，无咎。",
+        "translation": "One is possessed of sincerity. The danger of bloodshed is as a result averted, and his (ground for) apprehension dismissed. There is no blame."
+      },
+      "H09-L5": {
+        "label": "Line 5",
+        "original": "九五：有孚攣如，富以其鄰。",
+        "translation": "One is possessed of sincerity, and drawing others to unite with him. Rich in resources, he employs his neighbors (in the same cause with himself)."
+      },
+      "H09-L6": {
+        "label": "Line 6",
+        "original": "上九：既雨既處，尚德載，婦貞厲，月幾望，君子征凶。",
+        "translation": "The rain has come and the situation has settled. The accumulated virtue should be respected. A wife who persists faces danger; the moon is almost full. If the noble person advances now, misfortune follows."
+      }
+    }
+  },
+  "H10": {
+    "name": "Treading",
+    "unicode": "履",
+    "units": {
+      "H10-JUDGMENT": {
+        "label": "Judgment",
+        "original": "履虎尾，不咥人，亨。",
+        "translation": "Treading on a tiger’s tail without being bitten. Progress and success."
+      },
+      "H10-L1": {
+        "label": "Line 1",
+        "original": "初九：素履，往无咎。",
+        "translation": "One is treading his accustomed path. If he goes forward, there will be no blame."
+      },
+      "H10-L2": {
+        "label": "Line 2",
+        "original": "九二：履道坦坦，幽人貞吉。",
+        "translation": "One is treading the path that is level and easy; a quiet and solitary man, to whom, if he is steadfast and principled, good fortune follows."
+      },
+      "H10-L3": {
+        "label": "Line 3",
+        "original": "六三：眇能視，跛能履，履虎尾，咥人，凶。武人為于大君。",
+        "translation": "A one-eyed man (who thinks he) can see; a lame man (who thinks he) can walk well; one who treads on the tail of a tiger and is bitten. (All this indicates) ill fortune. We have a (mere) bravo acting the part of a great ruler."
+      },
+      "H10-L4": {
+        "label": "Line 4",
+        "original": "九四：履虎尾，愬愬終吉。",
+        "translation": "One is treading on the tail of a tiger. He becomes full of apprehensive caution, and in the end good fortune follows."
+      },
+      "H10-L5": {
+        "label": "Line 5",
+        "original": "九五：夬履，貞厲。",
+        "translation": "The resolute tread of its subject. Though he be steadfast and principled, there will be peril."
+      },
+      "H10-L6": {
+        "label": "Line 6",
+        "original": "上九：視履考祥，其旋元吉。",
+        "translation": "Tells us to look at (the whole course) that is trodden, and examine the presage which that gives. If it be complete and without failure, there will be great good fortune."
+      }
+    }
+  },
+  "H11": {
+    "name": "Peace",
+    "unicode": "泰",
+    "units": {
+      "H11-JUDGMENT": {
+        "label": "Judgment",
+        "original": "泰：小往大來，吉亨。",
+        "translation": "The small departs and the great approaches. Good fortune and progress."
+      },
+      "H11-L1": {
+        "label": "Line 1",
+        "original": "初九：拔茅茹以其彙，征吉。",
+        "translation": "Grass pulled up, and bringing with it other stalks with whose roots it is connected. Advance (on the part of its subject) will be fortunate."
+      },
+      "H11-L2": {
+        "label": "Line 2",
+        "original": "九二：包荒。用馮河，不遐遺；朋亡。得尚于中行。",
+        "translation": "One who can bear with the uncultivated, will cross the Ho without a boat, does not forget the distant, and has no (selfish) friendships. Thus does he prove himself acting in accordance with the course of the due Mean."
+      },
+      "H11-L3": {
+        "label": "Line 3",
+        "original": "九三：无平不陂，无往不復，艱貞无咎。勿恤其孚，于食有福。",
+        "translation": "No level ground stays level forever, and no departure is without a return. Remain steadfast in difficulty, and there is no blame. Do not fear what is true; you may still enjoy your blessings."
+      },
+      "H11-L4": {
+        "label": "Line 4",
+        "original": "六四：翩翩，不富以其鄰；不戒以孚。",
+        "translation": "One is fluttering (down); not relying on his own rich resources, but calling in his neighbors. (They all come) not as having received warning, but in the sincerity (of their hearts)."
+      },
+      "H11-L5": {
+        "label": "Line 5",
+        "original": "六五：帝乙歸妹，以祉，元吉。",
+        "translation": "Reminds us of (king) Tî-yî's (rule about the) marriage of his younger sister. By such a course there is happiness and there will be great good fortune."
+      },
+      "H11-L6": {
+        "label": "Line 6",
+        "original": "上六：城復于隍，勿用師，自邑告命，貞吝。",
+        "translation": "The city wall falls back into the moat. Do not use the army. Issue commands within your own city. Continued persistence brings humiliation."
+      }
+    }
+  },
+  "H12": {
+    "name": "Standstill",
+    "unicode": "否",
+    "units": {
+      "H12-JUDGMENT": {
+        "label": "Judgment",
+        "original": "否之匪人，不利君子貞，大往小來。",
+        "translation": "People fail to understand or unite with one another. This does not favor the noble person’s steadfast course. The great departs and the small approaches."
+      },
+      "H12-L1": {
+        "label": "Line 1",
+        "original": "初六，拔茅茹以其彙，貞吉。亨。",
+        "translation": "Grass pulled up, and bringing with it other stalks with whose roots it is connected. With steadfastness (on the part of its subject), good fortune follows and progress."
+      },
+      "H12-L2": {
+        "label": "Line 2",
+        "original": "六二，包承，小人吉，大人否。亨。",
+        "translation": "One is patient and obedient. To the lesser person (comporting himself so) good fortune follows. If the great person (comport himself) as the distress and obstruction require, he will have success."
+      },
+      "H12-L3": {
+        "label": "Line 3",
+        "original": "六三，包羞。",
+        "translation": "Hamed of the purpose folded (in his breast)."
+      },
+      "H12-L4": {
+        "label": "Line 4",
+        "original": "九四，有命，无咎，疇離祉。",
+        "translation": "One is acting in accordance with the ordination (of Heaven), and committing no blame. His companions will come and share in his happiness."
+      },
+      "H12-L5": {
+        "label": "Line 5",
+        "original": "九五，休否，大人吉。其亡其亡，繫于苞桑。",
+        "translation": "The great person brings obstruction to an end. Good fortune. Stay alert to the danger of collapse, as if tied firmly to a cluster of mulberry trees."
+      },
+      "H12-L6": {
+        "label": "Line 6",
+        "original": "上九，傾否，先否後喜。",
+        "translation": "The overthrow (and removal of) the condition of distress and obstruction. Before this there was that condition. Hereafter there will be joy."
+      }
+    }
+  },
+  "H13": {
+    "name": "Fellowship",
+    "unicode": "同人",
+    "units": {
+      "H13-JUDGMENT": {
+        "label": "Judgment",
+        "original": "同人于野，亨。 利涉大川，利君子貞。",
+        "translation": "Fellowship with people in the open brings success. It is favorable to cross the great river. The noble person’s steadfastness is favorable."
+      },
+      "H13-L1": {
+        "label": "Line 1",
+        "original": "初九：同人于門，無咎。",
+        "translation": "The union of men just issuing from his gate. There is no blame."
+      },
+      "H13-L2": {
+        "label": "Line 2",
+        "original": "六二：同人于宗，吝。",
+        "translation": "The union of men in relation with his kindred. There will be regret."
+      },
+      "H13-L3": {
+        "label": "Line 3",
+        "original": "九三：伏戎于莽，升其高陵，三歲不興。",
+        "translation": "One is with his arms hidden in the thick grass, and at the top of a high mound. (But) for three years he makes no demonstration."
+      },
+      "H13-L4": {
+        "label": "Line 4",
+        "original": "九四：乘其墉，弗克，攻吉。",
+        "translation": "One is mounted on the city wall; but he does not proceed to make the attack (he contemplates). Good fortune follows."
+      },
+      "H13-L5": {
+        "label": "Line 5",
+        "original": "九五：同人，先號啕而后笑。大師克相遇。",
+        "translation": "(the representative of) the union of men first wails and cries out, and then laughs. His great host conquers, and he (and the subject of the second line) meet together."
+      },
+      "H13-L6": {
+        "label": "Line 6",
+        "original": "上九：同人于郊，無悔。",
+        "translation": "The union of men in the suburbs. There will be no regret."
+      }
+    }
+  },
+  "H14": {
+    "name": "Great",
+    "unicode": "Possession",
+    "units": {
+      "H14-JUDGMENT": {
+        "label": "Judgment",
+        "original": "大有：元亨。",
+        "translation": "Great possession brings supreme success."
+      },
+      "H14-L1": {
+        "label": "Line 1",
+        "original": "初九：无交害，匪咎，艱則无咎。",
+        "translation": "There is no approach to what is injurious, and there is no blame. Let there be a realisation of the difficulty (and danger of the position), and there will be no blame (to the end)."
+      },
+      "H14-L2": {
+        "label": "Line 2",
+        "original": "九二：大車以載，有攸往，无咎。",
+        "translation": "We have a large wagon with its load. In whatever direction advance is made, there will be no blame."
+      },
+      "H14-L3": {
+        "label": "Line 3",
+        "original": "九三：公用亨于天子，小人弗克。",
+        "translation": "Us a feudal prince presenting his offerings to the Son of Heaven. A small man would be unequal (to such a duty)."
+      },
+      "H14-L4": {
+        "label": "Line 4",
+        "original": "九四：匪其彭，无咎。",
+        "translation": "One is keeping his great resources under restraint. There is no blame."
+      },
+      "H14-L5": {
+        "label": "Line 5",
+        "original": "六五：厥孚交如，威如；吉。",
+        "translation": "The sincerity of its subject reciprocated by that of all the others (represented in the hexagram). He should display a proper majesty, and good fortune follows."
+      },
+      "H14-L6": {
+        "label": "Line 6",
+        "original": "上九：自天佑之，吉无不利。",
+        "translation": "Help comes from heaven. Good fortune. Everything is favorable."
+      }
+    }
+  },
+  "H15": {
+    "name": "Modesty",
+    "unicode": "謙",
+    "units": {
+      "H15-JUDGMENT": {
+        "label": "Judgment",
+        "original": "謙：亨，君子有終。",
+        "translation": "Modesty brings success. The noble person carries matters through to completion."
+      },
+      "H15-L1": {
+        "label": "Line 1",
+        "original": "初六：謙謙君子，用涉大川，吉。",
+        "translation": "Us the noble person who adds humility to humility. (Even) the great stream may be crossed with this, and good fortune follows."
+      },
+      "H15-L2": {
+        "label": "Line 2",
+        "original": "六二：鳴謙，貞吉。",
+        "translation": "Us humility that has made itself recognised. With steadfastness good fortune follows."
+      },
+      "H15-L3": {
+        "label": "Line 3",
+        "original": "九三：勞謙君子，有終吉。",
+        "translation": "The noble person of (acknowledged) merit. He will maintain his success to the end, and have good fortune."
+      },
+      "H15-L4": {
+        "label": "Line 4",
+        "original": "六四：无不利，撝謙。",
+        "translation": "One, whose action would be in every way favorable, stirring up (the more) his humility."
+      },
+      "H15-L5": {
+        "label": "Line 5",
+        "original": "六五：不富，以其鄰，利用侵伐，无不利。",
+        "translation": "One who, without being rich, is able to employ his neighbors. He may favorablely use the force of arms. All his movements will be favorable."
+      },
+      "H15-L6": {
+        "label": "Line 6",
+        "original": "上六：鳴謙，利用行師，征邑國。",
+        "translation": "Us humility that has made itself recognised. The subject of it will with advantage put his hosts in motion; but (he will only) punish his own towns and state."
+      }
+    }
+  },
+  "H16": {
+    "name": "Enthusiasm",
+    "unicode": "豫",
+    "units": {
+      "H16-JUDGMENT": {
+        "label": "Judgment",
+        "original": "豫：利建侯行師。",
+        "translation": "Enthusiasm. It is favorable to appoint helpers and mobilize the army."
+      },
+      "H16-L1": {
+        "label": "Line 1",
+        "original": "初六：鳴豫，凶。",
+        "translation": "One is proclaiming his pleasure and satisfaction. Misfortune follows."
+      },
+      "H16-L2": {
+        "label": "Line 2",
+        "original": "六二：介于石，不終日，貞吉。",
+        "translation": "One who is firm as a rock. (He sees a thing) without waiting till it has come to pass; with his steadfastness good fortune follows."
+      },
+      "H16-L3": {
+        "label": "Line 3",
+        "original": "六三：盱豫，悔。遲有悔。",
+        "translation": "One looking up (for favors), while he indulges the feeling of pleasure and satisfaction. If he would understand!—If he is late in doing so, there will indeed be reason for regret."
+      },
+      "H16-L4": {
+        "label": "Line 4",
+        "original": "九四：由豫，大有得。勿疑。朋盍簪。",
+        "translation": "Him from whom the harmony and satisfaction come. Great is the success which he obtains. He should not allow suspicions to enter his mind, and thus friends will gather around him."
+      },
+      "H16-L5": {
+        "label": "Line 5",
+        "original": "六五：貞疾，恆不死。",
+        "translation": "One with a chronic complaint, but who lives on without dying."
+      },
+      "H16-L6": {
+        "label": "Line 6",
+        "original": "上六：冥豫，成有渝，无咎。",
+        "translation": "One is with darkened mind devoted to the pleasure and satisfaction (of the time); but if he change his course even when (it may be considered as) completed, there will be no blame."
+      }
+    }
+  },
+  "H17": {
+    "name": "Following",
+    "unicode": "隨",
+    "units": {
+      "H17-JUDGMENT": {
+        "label": "Judgment",
+        "original": "隨：元亨。利貞。无咎。",
+        "translation": "Following brings great progress. Steadfastness is favorable, and there is no blame."
+      },
+      "H17-L1": {
+        "label": "Line 1",
+        "original": "初九：官有渝，貞吉。出門交有功。",
+        "translation": "Us one changing the object of his pursuit; but if he is steadfast and principled, there will be good fortune. Going beyond (his own) gate to find associates, he will achieve merit."
+      },
+      "H17-L2": {
+        "label": "Line 2",
+        "original": "六二：系小子，失丈夫。",
+        "translation": "Us one who cleaves to the little boy, and lets go the man of age and experience."
+      },
+      "H17-L3": {
+        "label": "Line 3",
+        "original": "六三：系丈夫，失小子。隨，有求得利，居貞。",
+        "translation": "Us one who cleaves to the man of age and experience, and lets go the little boy. Such following will get what it seeks; but it is favorable to adhere to what is steadfast and principled."
+      },
+      "H17-L4": {
+        "label": "Line 4",
+        "original": "九四：隨有獲，貞凶。有孚在道，以明，何咎。",
+        "translation": "Following brings gains, but rigid persistence brings misfortune. If sincerity keeps you on a clear and proper path, there is no blame."
+      },
+      "H17-L5": {
+        "label": "Line 5",
+        "original": "九五：孚于嘉，吉。",
+        "translation": "Us (the ruler) sincere in (fostering all) that is excellent. Good fortune follows."
+      },
+      "H17-L6": {
+        "label": "Line 6",
+        "original": "上六：拘系之，乃從維之。王用亨于西山。",
+        "translation": "Sincerity is held and bound firmly. The king presents an offering on the western mountain."
+      }
+    }
+  },
+  "H18": {
+    "name": "Repairing",
+    "unicode": "Decay",
+    "units": {
+      "H18-JUDGMENT": {
+        "label": "Judgment",
+        "original": "蠱：元亨。利涉大川。先甲三日，後甲三日。",
+        "translation": "Repairing what has decayed brings great progress. It is favorable to cross the great river. Prepare for three days before beginning and remain attentive for three days afterward."
+      },
+      "H18-L1": {
+        "label": "Line 1",
+        "original": "初六：幹父之蠱，有子考，无咎，厲終吉。",
+        "translation": "(a son) dealing with the troubles caused by his father. If he is an (able) son, the father will escape the blame of having erred. The position is perilous, but good fortune follows in the end."
+      },
+      "H18-L2": {
+        "label": "Line 2",
+        "original": "九二：幹母之蠱，不可貞。",
+        "translation": "(a son) dealing with the troubles caused by his mother. He should not (carry) his steadfastness (to the utmost)."
+      },
+      "H18-L3": {
+        "label": "Line 3",
+        "original": "九三：幹父之蠱，小有悔，无大咎。",
+        "translation": "(a son) dealing with the troubles caused by his father. There may be some small reason for regret, but there will not be any great error."
+      },
+      "H18-L4": {
+        "label": "Line 4",
+        "original": "六四：裕父之蠱，往見吝。",
+        "translation": "(a son) viewing indulgently the troubles caused by his father. If he goes forward, he will find cause to regret it."
+      },
+      "H18-L5": {
+        "label": "Line 5",
+        "original": "六五：幹父之蠱，用譽。",
+        "translation": "(a son) dealing with the troubles caused by his father. He obtains the praise of using (the fit instrument for his work)."
+      },
+      "H18-L6": {
+        "label": "Line 6",
+        "original": "上九：不事王侯，高尚其事。",
+        "translation": "Us one who does not serve either king or feudal lord, but in a lofty spirit prefers (to attend to) his own affairs."
+      }
+    }
+  },
+  "H19": {
+    "name": "Approach",
+    "unicode": "臨",
+    "units": {
+      "H19-JUDGMENT": {
+        "label": "Judgment",
+        "original": "臨：元亨。利貞。至于八月有凶。",
+        "translation": "Approach brings great progress. Steadfastness is favorable. By the eighth month, misfortune may come."
+      },
+      "H19-L1": {
+        "label": "Line 1",
+        "original": "初九：咸臨，貞吉。",
+        "translation": "One is advancing in company (with the subject of the second line). Through his steadfastness good fortune follows."
+      },
+      "H19-L2": {
+        "label": "Line 2",
+        "original": "九二：咸臨，吉无不利。",
+        "translation": "Approaching together brings good fortune. Everything is favorable."
+      },
+      "H19-L3": {
+        "label": "Line 3",
+        "original": "六三：甘臨，无攸利。既憂之，无咎。",
+        "translation": "One well pleased (indeed) to advance, (but whose action) will be in no way favorable. If he iscome anxious about it (however), there will be no blame."
+      },
+      "H19-L4": {
+        "label": "Line 4",
+        "original": "六四：至臨，无咎。",
+        "translation": "One advancing in the highest mode. There is no blame."
+      },
+      "H19-L5": {
+        "label": "Line 5",
+        "original": "六五：知臨，大君之宜，吉。",
+        "translation": "The advance of wisdom, such as befits the great ruler. Good fortune follows."
+      },
+      "H19-L6": {
+        "label": "Line 6",
+        "original": "上六：敦臨，吉无咎。",
+        "translation": "A generous and honest approach brings good fortune and no blame."
+      }
+    }
+  },
+  "H20": {
+    "name": "Contemplation",
+    "unicode": "觀",
+    "units": {
+      "H20-JUDGMENT": {
+        "label": "Judgment",
+        "original": "觀：盥而不荐，有孚顒若。",
+        "translation": "Contemplation is like washing the hands before an offering has been presented. Sincerity and dignity inspire respect."
+      },
+      "H20-L1": {
+        "label": "Line 1",
+        "original": "初六：童觀，小人无咎，君子吝。",
+        "translation": "The looking of a lad; not blamable in men of inferior rank, but matter for regret in noble people."
+      },
+      "H20-L2": {
+        "label": "Line 2",
+        "original": "六二：窺觀，利女貞。",
+        "translation": "One peeping out from a door. It would be favorable if it were (merely) the steadfastness of a female."
+      },
+      "H20-L3": {
+        "label": "Line 3",
+        "original": "六三：觀我生，進退。",
+        "translation": "One looking at (the course of) his own life, to advance or recede (accordingly)."
+      },
+      "H20-L4": {
+        "label": "Line 4",
+        "original": "六四：觀國之光，利用賓于王。",
+        "translation": "One contemplating the glory of the kingdom. It will be favorable for him, being such as he is, (to seek) to be a guest of the king."
+      },
+      "H20-L5": {
+        "label": "Line 5",
+        "original": "九五：觀我生，君子无咎。",
+        "translation": "One is contemplating his own life(-course). A superior man, he will (thus) fall into no blame."
+      },
+      "H20-L6": {
+        "label": "Line 6",
+        "original": "上九：觀其生，君子无咎。",
+        "translation": "One is contemplating his character to see if it be indeed that of a noble person. He will not fall into error."
+      }
+    }
+  },
+  "H21": {
+    "name": "Biting",
+    "unicode": "Through",
+    "units": {
+      "H21-JUDGMENT": {
+        "label": "Judgment",
+        "original": "噬嗑：亨。利用獄。",
+        "translation": "Biting through the obstruction brings success. It is favorable to administer justice."
+      },
+      "H21-L1": {
+        "label": "Line 1",
+        "original": "初九：屨校滅趾，无咎。",
+        "translation": "One with his feet in the stocks and deprived of his toes. There is no blame."
+      },
+      "H21-L2": {
+        "label": "Line 2",
+        "original": "六二：噬膚滅鼻，无咎。",
+        "translation": "Biting through tender meat until the nose is covered. There is no blame."
+      },
+      "H21-L3": {
+        "label": "Line 3",
+        "original": "六三：噬臘肉，遇毒；小吝，无咎。",
+        "translation": "Biting dried meat and finding something unpleasant. There is minor regret, but no serious blame."
+      },
+      "H21-L4": {
+        "label": "Line 4",
+        "original": "九四：噬乾胏，得金矢，利艱貞，吉。",
+        "translation": "One gnawing the flesh dried on the bone, and getting the pledges of money and arrows. It is favorable to him to recognize the difficulty of his task and be firm, in which case good fortune follows."
+      },
+      "H21-L5": {
+        "label": "Line 5",
+        "original": "六五：噬乾肉，得黃金，貞厲，无咎。",
+        "translation": "One gnawing at dried flesh, and finding the yellow gold. He should be steadfast and principled, realising the peril (of his position). There is no blame."
+      },
+      "H21-L6": {
+        "label": "Line 6",
+        "original": "上九：何校滅耳，凶。",
+        "translation": "One wearing the cangue, and deprived of his ears. Misfortune follows."
+      }
+    }
+  },
+  "H22": {
+    "name": "Grace",
+    "unicode": "賁",
+    "units": {
+      "H22-JUDGMENT": {
+        "label": "Judgment",
+        "original": "賁：亨。小利有攸往。",
+        "translation": "Grace brings success. In small matters, it is favorable to have somewhere to go."
+      },
+      "H22-L1": {
+        "label": "Line 1",
+        "original": "初九：賁其趾，舍車而徒。",
+        "translation": "One adorning (the way of) his feet. He can discard a carriage and walk on foot."
+      },
+      "H22-L2": {
+        "label": "Line 2",
+        "original": "六二：賁其須。",
+        "translation": "One adorning his beard."
+      },
+      "H22-L3": {
+        "label": "Line 3",
+        "original": "九三：賁如濡如，永貞吉。",
+        "translation": "One is with the appearance of being adorned and bedewed (with rich favors). But he should ever maintain his steadfastness, and good fortune follows."
+      },
+      "H22-L4": {
+        "label": "Line 4",
+        "original": "六四：賁如皤如，白馬翰如，匪寇婚媾。",
+        "translation": "Plain white adornment. A white horse approaches as if it had wings. The visitor is not a robber but a marriage seeker."
+      },
+      "H22-L5": {
+        "label": "Line 5",
+        "original": "六五：賁於丘園，束帛戔戔，吝，終吉。",
+        "translation": "One is adorned by (the occupants of) the heights and gardens. He bears his roll of silk, small and slight. He may appear stingy; but good fortune follows in the end."
+      },
+      "H22-L6": {
+        "label": "Line 6",
+        "original": "上九：白賁，无咎。",
+        "translation": "One with white as his (only) ornament. There is no blame."
+      }
+    }
+  },
+  "H23": {
+    "name": "Splitting",
+    "unicode": "Apart",
+    "units": {
+      "H23-JUDGMENT": {
+        "label": "Judgment",
+        "original": "剝：不利。有攸往。",
+        "translation": "Splitting apart. It is not favorable to go forward."
+      },
+      "H23-L1": {
+        "label": "Line 1",
+        "original": "初六：剝牀以足，蔑貞凶。",
+        "translation": "One overturning the couch by injuring its legs. (The injury will go on to) the destruction of (all) steadfastness, and misfortune follows."
+      },
+      "H23-L2": {
+        "label": "Line 2",
+        "original": "六二：剝牀以辨，蔑貞凶。",
+        "translation": "One overthrowing the couch by injuring its frame. (The injury will go on to) the destruction of (all) steadfastness, and misfortune follows."
+      },
+      "H23-L3": {
+        "label": "Line 3",
+        "original": "六三：剝之，无咎。",
+        "translation": "One is among the overthrowers; but there will be no blame."
+      },
+      "H23-L4": {
+        "label": "Line 4",
+        "original": "六四：剝牀以膚，凶。",
+        "translation": "One is having overthrown the couch, and (going to injure) the skin (of him who lies on it). Misfortune follows."
+      },
+      "H23-L5": {
+        "label": "Line 5",
+        "original": "六五：貫魚，以宮人寵，无不利。",
+        "translation": "(its subject leading on the others like) a string of fishes, and (obtaining for them) the favor that lights on the inmates of the palace. There will be advantage in every way."
+      },
+      "H23-L6": {
+        "label": "Line 6",
+        "original": "上九：碩果不食，君子得輿，小人剝廬。",
+        "translation": "One is (as) a great fruit which has not been eaten. The superior man finds (the people again) as a chariot carrying him. The lesser people (by their course) overthrow their own dwellings."
+      }
+    }
+  },
+  "H24": {
+    "name": "Return",
+    "unicode": "復",
+    "units": {
+      "H24-JUDGMENT": {
+        "label": "Judgment",
+        "original": "復：亨。出入无疾，朋來无咎。反復其道，七日來復，利有攸往。",
+        "translation": "Return brings success. Going out and coming back cause no distress. Friends arrive without blame. After seven days comes return. It is favorable to have somewhere to go."
+      },
+      "H24-L1": {
+        "label": "Line 1",
+        "original": "初九：不復遠，无袛悔，元吉。",
+        "translation": "One is returning (from an error) of no great extent, which would not proceed to anything requiring repentance. Great good fortune follows."
+      },
+      "H24-L2": {
+        "label": "Line 2",
+        "original": "六二：休復，吉。",
+        "translation": "The admirable return (of its subject). Good fortune follows."
+      },
+      "H24-L3": {
+        "label": "Line 3",
+        "original": "六三：頻復，厲无咎。",
+        "translation": "One who has made repeated returns. The position is perilous, but there will be no blame."
+      },
+      "H24-L4": {
+        "label": "Line 4",
+        "original": "六四：中行獨復。",
+        "translation": "One is moving right in the centre (among those represented by the other broken lines), and yet returning alone (to his proper path)."
+      },
+      "H24-L5": {
+        "label": "Line 5",
+        "original": "六五：敦復，无悔。",
+        "translation": "The noble return of its subject. There will be no ground for repentance."
+      },
+      "H24-L6": {
+        "label": "Line 6",
+        "original": "上六：迷復，凶，有災眚。用行師，終有大敗，以其國君，凶；至于十年，不克",
+        "translation": "Losing the way back brings misfortune and disaster. Using the army ends in a great defeat that harms the ruler. Even after ten years, the damage cannot be repaired."
+      }
+    }
+  },
+  "H25": {
+    "name": "Innocence",
+    "unicode": "无妄",
+    "units": {
+      "H25-JUDGMENT": {
+        "label": "Judgment",
+        "original": "无妄：元亨。利貞。其匪正有眚，不利有攸往。",
+        "translation": "Innocence brings great progress. Steadfastness is favorable. If a person is not acting rightly, misfortune follows, and no undertaking is favorable."
+      },
+      "H25-L1": {
+        "label": "Line 1",
+        "original": "初九：无妄，往吉。",
+        "translation": "One is free from all insincerity. His advance will be accompanied with good fortune."
+      },
+      "H25-L2": {
+        "label": "Line 2",
+        "original": "六二：不耕穫，不菑畬，則利有攸往。",
+        "translation": "Reaping without first plowing, and using a field without first clearing it. It is favorable to go forward without calculating personal gain."
+      },
+      "H25-L3": {
+        "label": "Line 3",
+        "original": "六三：无妄之災，或系之牛，行人之得，邑人之災。",
+        "translation": "Unexpected trouble: a tethered ox is taken by a passerby, while the nearby people are wrongly blamed for the loss."
+      },
+      "H25-L4": {
+        "label": "Line 4",
+        "original": "九四：可貞，无咎。",
+        "translation": "(a case) in which, if its subject can remain steadfast and principled, there will be no blame."
+      },
+      "H25-L5": {
+        "label": "Line 5",
+        "original": "九五：无妄之疾，勿藥有喜。",
+        "translation": "An undeserved illness. Do not use medicine; recovery will bring joy."
+      },
+      "H25-L6": {
+        "label": "Line 6",
+        "original": "上九：无妄，行有眚，无攸利。",
+        "translation": "One is free from insincerity, yet sure to fall into error, if he takes action. (His action) will not be favorable in any way."
+      }
+    }
+  },
+  "H26": {
+    "name": "Great",
+    "unicode": "Taming",
+    "units": {
+      "H26-JUDGMENT": {
+        "label": "Judgment",
+        "original": "大畜：利貞，不家食吉，利涉大川。",
+        "translation": "Great taming. Steadfastness is favorable. Not eating at home brings good fortune. It is favorable to cross the great river."
+      },
+      "H26-L1": {
+        "label": "Line 1",
+        "original": "初九：有厲利已。",
+        "translation": "One is in a position of peril. It will be favorable for him to stop his advance."
+      },
+      "H26-L2": {
+        "label": "Line 2",
+        "original": "九二：輿說輹。",
+        "translation": "A carriage with the strap under it removed."
+      },
+      "H26-L3": {
+        "label": "Line 3",
+        "original": "九三：良馬逐，利艱貞。曰閑輿衛，利有攸往。",
+        "translation": "Good horses follow one another. Stay steadfast through difficulty. Practice driving and defense each day. It is favorable to go forward."
+      },
+      "H26-L4": {
+        "label": "Line 4",
+        "original": "六四：童牛之牿，元吉。",
+        "translation": "The young bull, (and yet) having the piece of wood over his horns. Great good fortune follows."
+      },
+      "H26-L5": {
+        "label": "Line 5",
+        "original": "六五：豶豕之牙，吉。",
+        "translation": "The teeth of a castrated hog. Good fortune follows."
+      },
+      "H26-L6": {
+        "label": "Line 6",
+        "original": "上九：何天之衢，亨。",
+        "translation": "One is (as) in command of the firmament of heaven. There will be progress."
+      }
+    }
+  },
+  "H27": {
+    "name": "Nourishment",
+    "unicode": "頤",
+    "units": {
+      "H27-JUDGMENT": {
+        "label": "Judgment",
+        "original": "頤：貞吉。觀頤，自求口實。",
+        "translation": "Nourishment. Steadfastness brings good fortune. Observe what a person nourishes and how they seek nourishment for themselves."
+      },
+      "H27-L1": {
+        "label": "Line 1",
+        "original": "初九：舍爾靈龜，觀我朵頤，凶。",
+        "translation": "(seems to be thus addressed), 'You leave your efficacious tortoise, and look at me till your lower jaw hangs down.' Misfortune follows."
+      },
+      "H27-L2": {
+        "label": "Line 2",
+        "original": "六二：顛頤，拂經，于丘頤，征凶。",
+        "translation": "One looking downwards for nourishment, which is contrary to what is proper; or seeking it from the height (above), advance towards which will lead to evil."
+      },
+      "H27-L3": {
+        "label": "Line 3",
+        "original": "六三：拂頤，貞凶，十年勿用，无攸利。",
+        "translation": "Going against the right way of nourishment brings misfortune if continued. Do not act this way for ten years. Nothing is favorable."
+      },
+      "H27-L4": {
+        "label": "Line 4",
+        "original": "六四：顛頤吉，虎視眈眈，其欲逐逐，无咎。",
+        "translation": "One looking downwards for (the power to) nourish. Good fortune follows. Looking with a tiger's downward unwavering glare, and with his desire that impels him to spring after spring, he will fall into no blame."
+      },
+      "H27-L5": {
+        "label": "Line 5",
+        "original": "六五：拂經，居貞吉，不可涉大川。",
+        "translation": "One acting contrary to what is regular and proper; but if he remains in firmness, good fortune follows. He should not, (however, try to) cross the great stream."
+      },
+      "H27-L6": {
+        "label": "Line 6",
+        "original": "上九：由頤，厲吉，利涉大川。",
+        "translation": "Him from whom comes the nourishing. His position is perilous, but good fortune follows. It is favorable to cross the great stream."
+      }
+    }
+  },
+  "H28": {
+    "name": "Great",
+    "unicode": "Exceeding",
+    "units": {
+      "H28-JUDGMENT": {
+        "label": "Judgment",
+        "original": "大過：棟橈，利有攸往，亨。",
+        "translation": "The supporting beam bends under the weight. It is favorable to go somewhere. Success is possible."
+      },
+      "H28-L1": {
+        "label": "Line 1",
+        "original": "初六：藉用白茅，无咎。",
+        "translation": "One placing mats of the white mao grass under things set on the ground. There is no blame."
+      },
+      "H28-L2": {
+        "label": "Line 2",
+        "original": "九二：枯楊生稊，老夫得其女妻，无不利。",
+        "translation": "A withered poplar puts forth new shoots; an old husband takes a young wife. Nothing is unfavorable."
+      },
+      "H28-L3": {
+        "label": "Line 3",
+        "original": "九三：棟橈，凶。",
+        "translation": "A beam that is weak. Misfortune follows."
+      },
+      "H28-L4": {
+        "label": "Line 4",
+        "original": "九四：棟隆，吉。有它吝。",
+        "translation": "A beam curving upwards. Good fortune follows. If (the subject of it) looks for other (help but that of line one), there will be cause for regret."
+      },
+      "H28-L5": {
+        "label": "Line 5",
+        "original": "九五：枯楊生華，老婦得其士夫，无咎无譽。",
+        "translation": "A decayed willow producing flowers, or an old wife in possession of her young husband. There will be occasion neither for blame nor for praise."
+      },
+      "H28-L6": {
+        "label": "Line 6",
+        "original": "上六：過涉滅頂，凶，无咎。",
+        "translation": "Wading so deeply that the water covers the head brings misfortune, but no blame."
+      }
+    }
+  },
+  "H29": {
+    "name": "The",
+    "unicode": "Abysmal",
+    "units": {
+      "H29-JUDGMENT": {
+        "label": "Judgment",
+        "original": "習坎：有孚，維心亨。行有尚。",
+        "translation": "Repeated danger. Sincerity in the heart brings success, and action earns respect."
+      },
+      "H29-L1": {
+        "label": "Line 1",
+        "original": "初六：習坎，入于坎窞，凶。",
+        "translation": "One is in the double defile, and (yet) entering a cavern within it. Misfortune follows."
+      },
+      "H29-L2": {
+        "label": "Line 2",
+        "original": "九二：坎有險，求小得。",
+        "translation": "In the abyss there is danger. Seek only a small gain."
+      },
+      "H29-L3": {
+        "label": "Line 3",
+        "original": "六三：來之坎坎，險且枕，入于坎窞，勿用。",
+        "translation": "One is, whether he comes or goes (=descends or ascends), confronted by a defile. All is peril to him and unrest. (His endeavours) will lead him into the cavern of the pit. There should be no action (in such a case)."
+      },
+      "H29-L4": {
+        "label": "Line 4",
+        "original": "六四：樽酒簋貳，用缶，納約自牖，終无咎。",
+        "translation": "A simple jar of wine, two bowls of grain, and plain earthenware are passed through the window. Sincere simplicity brings no blame in the end."
+      },
+      "H29-L5": {
+        "label": "Line 5",
+        "original": "九五：坎不盈，祗既平，无咎。",
+        "translation": "The water of the defile not yet full, (so that it might flow away); but order will (soon) be brought about. There is no blame."
+      },
+      "H29-L6": {
+        "label": "Line 6",
+        "original": "上六：係用徽纆，寘于叢棘，三歲不得，凶。",
+        "translation": "One is bound with cords of three strands or two strands, and placed in the thicket of thorns. But in three years he does not learn the course for him to pursue. Misfortune follows."
+      }
+    }
+  },
+  "H30": {
+    "name": "The",
+    "unicode": "Clinging",
+    "units": {
+      "H30-JUDGMENT": {
+        "label": "Judgment",
+        "original": "離：利貞。亨。畜牝牛，吉。",
+        "translation": "Clinging brings benefit through steadfastness. Raising a cow brings good fortune."
+      },
+      "H30-L1": {
+        "label": "Line 1",
+        "original": "初九：履錯然，敬之无咎。",
+        "translation": "One ready to move with confused steps. But he treads at the same time reverently, and there will be no mistake."
+      },
+      "H30-L2": {
+        "label": "Line 2",
+        "original": "六二：黃離，元吉。",
+        "translation": "One is in his place in yellow. Great good fortune follows."
+      },
+      "H30-L3": {
+        "label": "Line 3",
+        "original": "九三：日昃之離，不鼓缶而歌，則大耋之嗟，凶。",
+        "translation": "One is in a position like that of the declining sun. Instead of playing on his instrument of earthenware, and singing to it, he utters the groans of an old man of eighty. Misfortune follows."
+      },
+      "H30-L4": {
+        "label": "Line 4",
+        "original": "九四：突如其來如，焚如，死如，棄如。",
+        "translation": "The manner of its subject's coming. How abrupt it is, as with fire, with death, to be rejected (by all)!"
+      },
+      "H30-L5": {
+        "label": "Line 5",
+        "original": "六五：出涕沱若，戚嗟若，吉。",
+        "translation": "Tears flow in streams and there is sorrowful sighing. Good fortune."
+      },
+      "H30-L6": {
+        "label": "Line 6",
+        "original": "上九：王用出征，有嘉折首，獲匪其醜，无咎。",
+        "translation": "The king employing its subject in his punitive expeditions. Achieving admirable (merit), he breaks (only) the chiefs (of the rebels). Where his prisoners were not their associates, he does not punish. There is no blame."
+      }
+    }
+  },
+  "H31": {
+    "name": "Influence",
+    "unicode": "咸",
+    "units": {
+      "H31-JUDGMENT": {
+        "label": "Judgment",
+        "original": "咸：亨。利貞。取女吉。",
+        "translation": "Influence brings success. Steadfastness is favorable. Taking a young woman as wife brings good fortune."
+      },
+      "H31-L1": {
+        "label": "Line 1",
+        "original": "初六：咸其拇。",
+        "translation": "One moving his great toes."
+      },
+      "H31-L2": {
+        "label": "Line 2",
+        "original": "六二：咸其腓，凶，居吉。",
+        "translation": "One moving the calves of his leg. Misfortune follows. If he remains (quiet in his place), good fortune follows."
+      },
+      "H31-L3": {
+        "label": "Line 3",
+        "original": "九三：咸其股，執其隨，往吝。",
+        "translation": "One moving his thighs, and keeping close hold of those whom he follows. Going forward (in this way) will cause regret."
+      },
+      "H31-L4": {
+        "label": "Line 4",
+        "original": "九四：貞吉悔亡，憧憧往來，朋從爾思。",
+        "translation": "That steadfastness which will lead to good fortune, and prevent all reason for regret. If its subject be unsettled in his movements, (only) his friends will follow his purpose."
+      },
+      "H31-L5": {
+        "label": "Line 5",
+        "original": "九五：咸其脢，无悔。",
+        "translation": "One moving the flesh along the spine above the heart. There will be no regret."
+      },
+      "H31-L6": {
+        "label": "Line 6",
+        "original": "上六：咸其輔，頰，舌。",
+        "translation": "The influence shows in the jaws, cheeks, and tongue."
+      }
+    }
+  },
+  "H32": {
+    "name": "Duration",
+    "unicode": "恆",
+    "units": {
+      "H32-JUDGMENT": {
+        "label": "Judgment",
+        "original": "恆：亨，无咎。利貞，利有攸往。",
+        "translation": "Constancy brings success and no blame. Perseverance is favorable; it is favorable to have somewhere to go."
+      },
+      "H32-L1": {
+        "label": "Line 1",
+        "original": "初六：浚恆，貞凶，无攸利。",
+        "translation": "Seeking deep constancy at the outset: perseverance brings misfortune. Nothing is favorable."
+      },
+      "H32-L2": {
+        "label": "Line 2",
+        "original": "九二：悔亡。",
+        "translation": "All reason for regret disappearing."
+      },
+      "H32-L3": {
+        "label": "Line 3",
+        "original": "九三：不恆其德，或承之羞，貞吝。",
+        "translation": "One who does not continuously maintain his virtue. There are those who will impute this to him as a disgrace. However firm he may be, there will be ground for regret."
+      },
+      "H32-L4": {
+        "label": "Line 4",
+        "original": "九四：田无禽。",
+        "translation": "A field where there is no game."
+      },
+      "H32-L5": {
+        "label": "Line 5",
+        "original": "六五：恆其德，貞，婦人吉，夫子凶。",
+        "translation": "One is continuously maintaining the virtue indicated by it. In a wife this will be fortunate; in a husband, evil."
+      },
+      "H32-L6": {
+        "label": "Line 6",
+        "original": "上六：振恆，凶。",
+        "translation": "Restless striving for constancy brings misfortune."
+      }
+    }
+  },
+  "H33": {
+    "name": "Retreat",
+    "unicode": "遯",
+    "units": {
+      "H33-JUDGMENT": {
+        "label": "Judgment",
+        "original": "遯：亨。小利貞。",
+        "translation": "Retreat brings success. In small matters, perseverance is favorable."
+      },
+      "H33-L1": {
+        "label": "Line 1",
+        "original": "初六：遯尾，厲，勿用有攸往。",
+        "translation": "Retreat at the tail is dangerous. Do not undertake a journey."
+      },
+      "H33-L2": {
+        "label": "Line 2",
+        "original": "六二：執之用黃牛之革，莫之勝說。",
+        "translation": "One is holding (his purpose) fast as if by a (thong made from the) hide of a yellow ox, which cannot be broken."
+      },
+      "H33-L3": {
+        "label": "Line 3",
+        "original": "九三：系遯，有疾厲，畜臣妾吉。",
+        "translation": "One retiring but bound, — to his distress and peril. (If he were to deal with his binders as in) nourishing a servant or concubine, it would be fortunate for him."
+      },
+      "H33-L4": {
+        "label": "Line 4",
+        "original": "九四：好遯君子吉，小人否。",
+        "translation": "One is retiring notwithstanding his likings. In a noble person this will lead to good fortune; a small man cannot attain to this."
+      },
+      "H33-L5": {
+        "label": "Line 5",
+        "original": "九五：嘉遯，貞吉。",
+        "translation": "One is retiring in an admirable way. With steadfastness good fortune follows."
+      },
+      "H33-L6": {
+        "label": "Line 6",
+        "original": "上九：肥遯，无不利。",
+        "translation": "A generous and unburdened retreat. Everything is favorable."
+      }
+    }
+  },
+  "H34": {
+    "name": "Great",
+    "unicode": "Power",
+    "units": {
+      "H34-JUDGMENT": {
+        "label": "Judgment",
+        "original": "大壯：利貞。",
+        "translation": "Great power. Perseverance is favorable."
+      },
+      "H34-L1": {
+        "label": "Line 1",
+        "original": "初九：壯于趾，征凶，有孚。",
+        "translation": "One is manifesting his strength in his toes. But advance will lead to evil, — most certainly."
+      },
+      "H34-L2": {
+        "label": "Line 2",
+        "original": "九二：貞吉。",
+        "translation": "That with steadfastness good fortune follows."
+      },
+      "H34-L3": {
+        "label": "Line 3",
+        "original": "九三：小人用壯，君子用罔，貞厲。羝羊觸藩，羸其角。",
+        "translation": "A lesser person uses raw force; a noble person does not. Persistence is dangerous. A ram butts a fence and traps its horns."
+      },
+      "H34-L4": {
+        "label": "Line 4",
+        "original": "九四：貞吉悔亡，藩決不羸，壯于大輿之輹。",
+        "translation": "Steadfastness brings good fortune, and regret disappears. The fence opens and the horns are freed. Strength is like the spokes of a large wagon."
+      },
+      "H34-L5": {
+        "label": "Line 5",
+        "original": "六五：喪羊于易，无悔。",
+        "translation": "One who loses his ram(-like strength) in the ease of his position. (But) there will be no reason for regret."
+      },
+      "H34-L6": {
+        "label": "Line 6",
+        "original": "上六：羝羊觸藩，不能退，不能遂，无攸利，艱則吉。",
+        "translation": "The ram butts the fence and can neither retreat nor advance. Nothing is favorable. Recognizing the difficulty brings good fortune."
+      }
+    }
+  },
+  "H35": {
+    "name": "Progress",
+    "unicode": "晉",
+    "units": {
+      "H35-JUDGMENT": {
+        "label": "Judgment",
+        "original": "晉：康侯用錫馬蕃庶，晝日三接。",
+        "translation": "Progress: the secure prince is granted many horses and is received in audience three times in one day."
+      },
+      "H35-L1": {
+        "label": "Line 1",
+        "original": "初六：晉如，摧如，貞吉。罔孚，裕无咎。",
+        "translation": "One wishing to advance, and (at the same time) kept back. He should be steadfast and principled, and good fortune follows. If trust be not reposed in him, he should maintain a large and generous mind, and there will be no blame."
+      },
+      "H35-L2": {
+        "label": "Line 2",
+        "original": "六二：晉如，愁如，貞吉。受茲介福，于其王母。",
+        "translation": "One is with the appearance of advancing, and yet of being sorrowful. If he is steadfast and principled, good fortune follows. He will receive this great blessing from his grandmother."
+      },
+      "H35-L3": {
+        "label": "Line 3",
+        "original": "六三：眾允，悔亡。",
+        "translation": "One is trusted by all (around him). All reason for regret will disappear."
+      },
+      "H35-L4": {
+        "label": "Line 4",
+        "original": "九四：晉如鼫鼠，貞厲。",
+        "translation": "One is with the appearance of advancing, but like a marmot. However steadfast and principled he maybe, the position is one of peril."
+      },
+      "H35-L5": {
+        "label": "Line 5",
+        "original": "六五：悔亡，失得勿恤，往吉无不利。",
+        "translation": "All reason for regret disappears (from its subject). (But) he should not concern himself about whether he will fail or succeed. To advance will be fortunate, and in every way favorable."
+      },
+      "H35-L6": {
+        "label": "Line 6",
+        "original": "上九：晉其角，維用伐邑，厲吉无咎，貞吝。",
+        "translation": "Advancing with the horns may be used only to discipline one’s own city. Danger, yet good fortune and no blame; perseverance brings regret."
+      }
+    }
+  },
+  "H36": {
+    "name": "Darkening",
+    "unicode": "of",
+    "units": {
+      "H36-JUDGMENT": {
+        "label": "Judgment",
+        "original": "明夷：利艱貞。",
+        "translation": "Darkening of the light. It is favorable to remain steadfast in hardship."
+      },
+      "H36-L1": {
+        "label": "Line 1",
+        "original": "初九：明夷于飛，垂其翼。君子于行，三日不食，有攸往，主人有言。",
+        "translation": "The light is darkened, like a bird flying with drooping wings. The noble person travels without eating for three days and may be criticized wherever they go."
+      },
+      "H36-L2": {
+        "label": "Line 2",
+        "original": "六二：明夷，夷于左股，用拯馬壯，吉。",
+        "translation": "One is, (in the condition indicated by) Ming I, wounded in the left thigh. He saves himself by the strength of a (swift) horse; and is fortunate."
+      },
+      "H36-L3": {
+        "label": "Line 3",
+        "original": "九三：明夷于南狩，得其大首，不可疾貞。",
+        "translation": "One is, (in the condition indicated by) Ming I, hunting in the south, and taking the great chief (of the darkness). He should not be eager to make (all) correct (at once)."
+      },
+      "H36-L4": {
+        "label": "Line 4",
+        "original": "六四：入于左腹，獲明夷之心，于出門庭。",
+        "translation": "One is (just) entered into the left side of the belly (of the dark land). (But) he is able to carry out the mind appropriate (in the condition indicated by) Ming 1, quitting the gate and courtyard (of the lord of darkness)."
+      },
+      "H36-L5": {
+        "label": "Line 5",
+        "original": "六五：箕子之明夷，利貞。",
+        "translation": "The count of K\\ fulfilled the condition indicated by Ming I. It is favorable to be steadfast and principled."
+      },
+      "H36-L6": {
+        "label": "Line 6",
+        "original": "上六：不明晦，初登于天，后入于地。",
+        "translation": "The case where there is no light, but (only) obscurity. (Its subject) had at first ascended to (the top of) the sky; his future will be to go into the earth."
+      }
+    }
+  },
+  "H37": {
+    "name": "The",
+    "unicode": "Family",
+    "units": {
+      "H37-JUDGMENT": {
+        "label": "Judgment",
+        "original": "家人：利女貞。",
+        "translation": "The Household. The perseverance of the woman is favorable."
+      },
+      "H37-L1": {
+        "label": "Line 1",
+        "original": "初九：閑有家，悔亡。",
+        "translation": "Set clear limits within the household. Regret disappears."
+      },
+      "H37-L2": {
+        "label": "Line 2",
+        "original": "六二：无攸遂，在中饋，貞吉。",
+        "translation": "One is taking nothing on herself, but in her central place attending to the preparation of the food. Through her steadfastness good fortune follows."
+      },
+      "H37-L3": {
+        "label": "Line 3",
+        "original": "九三：家人嗃嗃，悔厲吉；婦子嘻嘻，終吝。",
+        "translation": "Strict discipline in the family may bring regret and danger, yet it ends well. If wife and children only laugh and chatter, humiliation follows in the end."
+      },
+      "H37-L4": {
+        "label": "Line 4",
+        "original": "六四：富家，大吉。",
+        "translation": "She enriches the household. Great good fortune."
+      },
+      "H37-L5": {
+        "label": "Line 5",
+        "original": "九五：王假有家，勿恤。吉。",
+        "translation": "The influence of the king extending to his family. There need be no anxiety; good fortune follows."
+      },
+      "H37-L6": {
+        "label": "Line 6",
+        "original": "上九：有孚威如，終吉。",
+        "translation": "Sincerity joined with dignity brings good fortune in the end."
+      }
+    }
+  },
+  "H38": {
+    "name": "Opposition",
+    "unicode": "睽",
+    "units": {
+      "H38-JUDGMENT": {
+        "label": "Judgment",
+        "original": "睽：小事吉。",
+        "translation": "Opposition. Good fortune in small matters."
+      },
+      "H38-L1": {
+        "label": "Line 1",
+        "original": "初九：悔亡，喪馬勿逐，自復；見惡人无咎。",
+        "translation": "That (to its subject) reason for regret will disappear. He has lost his horses, but he should not seek for them; — they will return of themselves. Should he meet with bad men, he will not err (in communicating with them)."
+      },
+      "H38-L2": {
+        "label": "Line 2",
+        "original": "九二：遇主于巷，无咎。",
+        "translation": "One is happening to meet with his lord in a bye-passage. There is no blame."
+      },
+      "H38-L3": {
+        "label": "Line 3",
+        "original": "六三：見輿曳，其牛掣，其人天且劓，无初有終。",
+        "translation": "The cart is dragged back and the oxen are restrained; the man is shaved and his nose cut. No good beginning, but a good end."
+      },
+      "H38-L4": {
+        "label": "Line 4",
+        "original": "九四：睽孤，遇元夫，交孚，厲无咎。",
+        "translation": "Isolated through opposition, one meets a trustworthy person and joins in sincerity. Danger, but no blame."
+      },
+      "H38-L5": {
+        "label": "Line 5",
+        "original": "六五：悔亡，厥宗噬膚，往何咎。",
+        "translation": "That (to its subject) reason for regret will disappear. With his relative (and minister he unites closely and readily) as if he were biting through a piece of skin. When he goes forward (with this help), what error can there be ?"
+      },
+      "H38-L6": {
+        "label": "Line 6",
+        "original": "上九：睽孤， 見豕負涂，載鬼一車， 先張之弧，后說之弧，匪寇婚媾，往遇雨",
+        "translation": "Isolated through opposition, one sees a mud-covered pig and a wagon full of ghosts. The bow is first drawn, then put aside: this is not a robber but a marriage seeker. Going forward and meeting rain brings good fortune."
+      }
+    }
+  },
+  "H39": {
+    "name": "Obstruction",
+    "unicode": "蹇",
+    "units": {
+      "H39-JUDGMENT": {
+        "label": "Judgment",
+        "original": "蹇：利西南，不利東北；利見大人，貞吉。",
+        "translation": "Obstruction. The southwest is favorable; the northeast is not. It is favorable to see the great person. Perseverance brings good fortune."
+      },
+      "H39-L1": {
+        "label": "Line 1",
+        "original": "初六：往蹇，來譽。",
+        "translation": "From the first line, broken, we learn that advance (on the part of its subject) will lead to (greater) difficulties, while remaining stationary will afford ground for praise."
+      },
+      "H39-L2": {
+        "label": "Line 2",
+        "original": "六二：王臣蹇蹇，匪躬之故。",
+        "translation": "The minister of the king struggling with difficulty on difficulty, and not with a view to his own advantage."
+      },
+      "H39-L3": {
+        "label": "Line 3",
+        "original": "九三：往蹇來反。",
+        "translation": "One is advancing, (but only) to (greater) difficulties. He remains stationary, and returns (to his former associates)."
+      },
+      "H39-L4": {
+        "label": "Line 4",
+        "original": "六四：往蹇來連。",
+        "translation": "One is advancing, (but only) to (greater) difficulties. He remains stationary, and unites (with the subject of the line above)."
+      },
+      "H39-L5": {
+        "label": "Line 5",
+        "original": "九五：大蹇朋來。",
+        "translation": "One is struggling with the greatest difficulties, while friends are coming to help him."
+      },
+      "H39-L6": {
+        "label": "Line 6",
+        "original": "上六：往蹇來碩，吉；利見大人。",
+        "translation": "Going brings obstruction; returning brings great merit. Good fortune. It is favorable to see the great person."
+      }
+    }
+  },
+  "H40": {
+    "name": "Deliverance",
+    "unicode": "解",
+    "units": {
+      "H40-JUDGMENT": {
+        "label": "Judgment",
+        "original": "解：利西南，无所往，其來復吉。有攸往，夙吉。",
+        "translation": "Release. The southwest is favorable. If there is nowhere to go, returning brings good fortune; if there is somewhere to go, setting out early brings good fortune."
+      },
+      "H40-L1": {
+        "label": "Line 1",
+        "original": "初六：无咎。",
+        "translation": "No blame."
+      },
+      "H40-L2": {
+        "label": "Line 2",
+        "original": "九二：田獲三狐，得黃矢，貞吉。",
+        "translation": "One is catch in hunting, three foxes, and obtain the yellow ( = golden) arrows. With steadfastness good fortune follows."
+      },
+      "H40-L3": {
+        "label": "Line 3",
+        "original": "六三：負且乘，致寇至，貞吝。",
+        "translation": "A porter carries a burden while riding in a carriage, inviting robbers to come. Perseverance brings humiliation."
+      },
+      "H40-L4": {
+        "label": "Line 4",
+        "original": "九四：解而拇，朋至斯孚。",
+        "translation": "Free yourself from the entanglement at your great toe; then a companion comes, and trust is possible."
+      },
+      "H40-L5": {
+        "label": "Line 5",
+        "original": "六五：君子維有解，吉；有孚于小人。",
+        "translation": "The noble person alone can bring release. Good fortune; sincerity is as a result shown to lesser people."
+      },
+      "H40-L6": {
+        "label": "Line 6",
+        "original": "上六：公用射隼，于高墉之上，獲之，无不利。",
+        "translation": "The prince shoots a hawk from the top of a high wall and captures it. Nothing is unfavorable."
+      }
+    }
+  },
+  "H41": {
+    "name": "Decrease",
+    "unicode": "損",
+    "units": {
+      "H41-JUDGMENT": {
+        "label": "Judgment",
+        "original": "損：有孚，元吉。无咎，可貞，利有攸往。曷之用？二簋可用享。",
+        "translation": "Decrease joined with sincerity brings great good fortune and no blame. Perseverance is possible; it is favorable to go somewhere. Two simple bowls may be used for the offering."
+      },
+      "H41-L1": {
+        "label": "Line 1",
+        "original": "初九：已事遄往，无咎，酌損之。",
+        "translation": "One is suspending his own affairs, and hurrying away (to help the subject of the fourth line). He will commit no blame, but he should consider how far he should contribute of what is his (for the other)."
+      },
+      "H41-L2": {
+        "label": "Line 2",
+        "original": "九二：利貞，征凶，弗損益之。",
+        "translation": "That it will be favorable for its subject to maintain a steadfastness, and that action on his part will be evil. He can give increase (to his correlate) without taking from himself."
+      },
+      "H41-L3": {
+        "label": "Line 3",
+        "original": "六三：三人行，則損一人；一人行，則得其友。",
+        "translation": "Of three men walking together, the number is diminished by one; and how one, walking, finds his friend."
+      },
+      "H41-L4": {
+        "label": "Line 4",
+        "original": "六四：損其疾，使遄有喜，无咎。",
+        "translation": "One is diminishing the ailment under which he labours by making (the subject of the first line) hasten (to his help), and make him glad. There is no blame."
+      },
+      "H41-L5": {
+        "label": "Line 5",
+        "original": "六五：或益之，十朋之龜弗克違，元吉。",
+        "translation": "Someone increases him by ten pairs of tortoise shells; this cannot be opposed. Great good fortune."
+      },
+      "H41-L6": {
+        "label": "Line 6",
+        "original": "上九：弗損益之，无咎，貞吉，利有攸往，得臣无家。",
+        "translation": "Increasing others without diminishing oneself: no blame. Perseverance brings good fortune. It is favorable to go somewhere; one gains servants but no separate household."
+      }
+    }
+  },
+  "H42": {
+    "name": "Increase",
+    "unicode": "益",
+    "units": {
+      "H42-JUDGMENT": {
+        "label": "Judgment",
+        "original": "益：利有攸往。利涉大川。",
+        "translation": "Increase. It is favorable to have somewhere to go; it is favorable to cross the great river."
+      },
+      "H42-L1": {
+        "label": "Line 1",
+        "original": "初九：利用為大作，元吉，无咎。",
+        "translation": "It is favorable to undertake a great work. Great good fortune; no blame."
+      },
+      "H42-L2": {
+        "label": "Line 2",
+        "original": "六二：或益之，十朋之龜弗克違，永貞吉。王用享于帝，吉。",
+        "translation": "Someone adds ten pairs of tortoise shells, and this cannot be refused. Lasting steadfastness brings good fortune. The king presents an offering to the highest power. Good fortune."
+      },
+      "H42-L3": {
+        "label": "Line 3",
+        "original": "六三：益之用凶事，无咎。有孚中行，告公用圭。",
+        "translation": "Increase comes through difficult events, yet there is no blame. Act sincerely and follow the middle path. Report to the prince with the jade tablet of office."
+      },
+      "H42-L4": {
+        "label": "Line 4",
+        "original": "六四：中行，告公從。利用為依遷國。",
+        "translation": "One is pursuing the due course. His advice to his prince is followed. He can with advantage be relied on in such a movement as that of removing the capital."
+      },
+      "H42-L5": {
+        "label": "Line 5",
+        "original": "九五：有孚惠心，勿問元吉。有孚惠我德。",
+        "translation": "With a sincere heart, bring benefit without asking. Great good fortune; others sincerely recognize the kindness."
+      },
+      "H42-L6": {
+        "label": "Line 6",
+        "original": "上九：莫益之，或擊之，立心勿恆，凶。",
+        "translation": "No one increases him; someone strikes him. He does not keep his heart constant. Misfortune."
+      }
+    }
+  },
+  "H43": {
+    "name": "Breakthrough",
+    "unicode": "夬",
+    "units": {
+      "H43-JUDGMENT": {
+        "label": "Judgment",
+        "original": "夬：揚于王庭，孚號，有厲，告自邑，不利即戎，利有攸往。",
+        "translation": "Breakthrough must be announced at the royal court. Sincerely proclaim the danger from one’s own city. Do not resort to arms; it is favorable to go forward."
+      },
+      "H43-L1": {
+        "label": "Line 1",
+        "original": "初九：壯于前趾，往不勝為咎。",
+        "translation": "One is in (the pride of) strength advancing with his toes. He goes forward, but will not succeed. There is blame."
+      },
+      "H43-L2": {
+        "label": "Line 2",
+        "original": "九二：惕號，莫夜有戎，勿恤。",
+        "translation": "One is full of apprehension and appealing (for sympathy and help). Late at night hostile measures may be (taken against him), but he need not be anxious about them."
+      },
+      "H43-L3": {
+        "label": "Line 3",
+        "original": "九三：壯于頄，有凶。君子夬夬，獨行遇雨，若濡有慍，无咎。",
+        "translation": "Resoluteness in the cheekbones brings misfortune. The noble person decides to walk alone, is soaked by rain, and is resented; no blame."
+      },
+      "H43-L4": {
+        "label": "Line 4",
+        "original": "九四：臀无膚，其行次且。牽羊悔亡，聞言不信。",
+        "translation": "The skin is gone from the buttocks, and walking is difficult. Let yourself be led like a sheep and regret disappears, but these words are not believed."
+      },
+      "H43-L5": {
+        "label": "Line 5",
+        "original": "九五：莧陸夬夬，中行无咎。",
+        "translation": "Wild purslane must be uprooted with firm resolve. Walk the middle path, and there is no blame."
+      },
+      "H43-L6": {
+        "label": "Line 6",
+        "original": "上六：无號，終有凶。",
+        "translation": "There is no cry for help. Misfortune in the end."
+      }
+    }
+  },
+  "H44": {
+    "name": "Coming",
+    "unicode": "to",
+    "units": {
+      "H44-JUDGMENT": {
+        "label": "Judgment",
+        "original": "姤：女壯，勿用取女。",
+        "translation": "Coming to Meet. The woman is powerful; do not take such a woman as wife."
+      },
+      "H44-L1": {
+        "label": "Line 1",
+        "original": "初六：系于金柅，貞吉，有攸往，見凶，羸豕孚踟躅。",
+        "translation": "Hold it fast with a metal brake. Steadfastness brings good fortune. Moving forward brings misfortune. The restless lean pig is certain to struggle."
+      },
+      "H44-L2": {
+        "label": "Line 2",
+        "original": "九二：包有魚，无咎，不利賓。",
+        "translation": "One is with a wallet of fish. There is no blame. But it will not be well to let (the subject of the first line) go forward to the guests."
+      },
+      "H44-L3": {
+        "label": "Line 3",
+        "original": "九三：臀无膚，其行次且，厲，无大咎。",
+        "translation": "One from whose buttocks the skin has been stripped so that he walks with difficulty. The position is perilous, but there will be no great error."
+      },
+      "H44-L4": {
+        "label": "Line 4",
+        "original": "九四：包无魚，起凶。",
+        "translation": "One is with his wallet, but no fish in it. This will give rise to evil."
+      },
+      "H44-L5": {
+        "label": "Line 5",
+        "original": "九五：以杞包瓜，含章，有隕自天。",
+        "translation": "A medlar tree overspreading the gourd (beneath it). If he keeps his brilliant qualities concealed, (a good issue) will descend (as) from Heaven."
+      },
+      "H44-L6": {
+        "label": "Line 6",
+        "original": "上九：姤其角，吝，无咎。",
+        "translation": "Meeting at the horns. Humiliation, but no blame."
+      }
+    }
+  },
+  "H45": {
+    "name": "Gathering",
+    "unicode": "Together",
+    "units": {
+      "H45-JUDGMENT": {
+        "label": "Judgment",
+        "original": "萃：亨。王假有廟，利見大人，亨。利貞。用大牲吉，利有攸往。",
+        "translation": "Gathering brings success. The king approaches his ancestral temple. It is favorable to see the great person and to persevere. Offering a great sacrifice brings good fortune; it is favorable to go forward."
+      },
+      "H45-L1": {
+        "label": "Line 1",
+        "original": "初六：有孚不終，乃亂乃萃，若號一握為笑，勿恤，往无咎。",
+        "translation": "Sincere, but not to the end: first disorder, then gathering. If one calls out, a clasp of hands turns to laughter. Do not worry; going forward brings no blame."
+      },
+      "H45-L2": {
+        "label": "Line 2",
+        "original": "六二：引吉，无咎，孚乃利用禴。",
+        "translation": "Allow yourself to be guided forward. Good fortune and no blame. With sincerity, even a small seasonal offering is accepted."
+      },
+      "H45-L3": {
+        "label": "Line 3",
+        "original": "六三：萃如，嗟如，无攸利，往无咎，小吝。",
+        "translation": "One is striving after union and seeming to sigh, yet nowhere finding any advantage. If he goes forward, he will not err, though there may be some small cause for regret."
+      },
+      "H45-L4": {
+        "label": "Line 4",
+        "original": "九四：大吉，无咎。",
+        "translation": "One is in such a state that, if he is greatly fortunate, he will receive no blame."
+      },
+      "H45-L5": {
+        "label": "Line 5",
+        "original": "九五：萃有位，无咎。匪孚，元永貞，悔亡。",
+        "translation": "Gathering around a person in authority brings no blame. If trust is lacking, maintain great and lasting steadfastness; regret then disappears."
+      },
+      "H45-L6": {
+        "label": "Line 6",
+        "original": "上六：齎咨涕洟，无咎。",
+        "translation": "Sighing and weeping. No blame."
+      }
+    }
+  },
+  "H46": {
+    "name": "Pushing",
+    "unicode": "Upward",
+    "units": {
+      "H46-JUDGMENT": {
+        "label": "Judgment",
+        "original": "升：元亨，用見大人，勿恤，南征吉。",
+        "translation": "Ascending brings supreme success. It is favorable to see the great person; do not worry. Advance toward the south brings good fortune."
+      },
+      "H46-L1": {
+        "label": "Line 1",
+        "original": "初六：允升，大吉。",
+        "translation": "One is advancing upwards with the welcome (of those above him). Great good fortune follows."
+      },
+      "H46-L2": {
+        "label": "Line 2",
+        "original": "九二：孚乃利用禴，无咎。",
+        "translation": "One is with that sincerity which will make even the (small) offerings of the vernal sacrifice acceptable. There is no blame."
+      },
+      "H46-L3": {
+        "label": "Line 3",
+        "original": "九三：升虛邑。",
+        "translation": "Cending upwards (as into) an empty city."
+      },
+      "H46-L4": {
+        "label": "Line 4",
+        "original": "六四：王用亨于岐山，吉无咎。",
+        "translation": "The king presents an offering at Mount Qi. Good fortune and no blame."
+      },
+      "H46-L5": {
+        "label": "Line 5",
+        "original": "六五：貞吉，升階。",
+        "translation": "One is firmly correct, and therefore enjoying good fortune. He ascends the stairs (with all due ceremony)."
+      },
+      "H46-L6": {
+        "label": "Line 6",
+        "original": "上六：冥升，利于不息之貞。",
+        "translation": "Ascending in darkness. It is favorable to persist unceasingly in what is right."
+      }
+    }
+  },
+  "H47": {
+    "name": "Oppression",
+    "unicode": "困",
+    "units": {
+      "H47-JUDGMENT": {
+        "label": "Judgment",
+        "original": "困：亨，貞大人吉，无咎，有言不信。",
+        "translation": "Oppression brings success. For the great person, perseverance brings good fortune and no blame. Words are not believed."
+      },
+      "H47-L1": {
+        "label": "Line 1",
+        "original": "初六：臀困于株木，入于幽谷，三歲不覿。",
+        "translation": "One is with bare buttocks straitened under the stump of a tree. He enters a dark valley, and for three years has no prospect (of deliverance)."
+      },
+      "H47-L2": {
+        "label": "Line 2",
+        "original": "九二：困于酒食，朱紱方來，利用亨祀，征凶，无咎。",
+        "translation": "Oppressed amid food and drink. A high official in red knee bands is coming. It is favorable to make an offering. Going forward brings misfortune, but no blame."
+      },
+      "H47-L3": {
+        "label": "Line 3",
+        "original": "六三：困于石，據于蒺藜，入于其宮，不見其妻，凶。",
+        "translation": "One is straitened before a (frowning) rock. He lays hold of thorns. He enters his palace, and does not see his wife. Misfortune follows."
+      },
+      "H47-L4": {
+        "label": "Line 4",
+        "original": "九四：來徐徐，困于金車，吝，有終。",
+        "translation": "He comes slowly, oppressed by a metal carriage. Regret, but there is an end."
+      },
+      "H47-L5": {
+        "label": "Line 5",
+        "original": "九五：劓刖，困于赤紱，乃徐有說，利用祭祀。",
+        "translation": "The nose and feet are injured, and one is constrained by officials in red knee bands. Relief comes slowly. It is favorable to make an offering."
+      },
+      "H47-L6": {
+        "label": "Line 6",
+        "original": "上六：困于葛藟，于臲卼，曰動悔。有悔，征吉。",
+        "translation": "Oppressed by creeping vines and an unstable position. If one says movement brings regret, there is regret; setting forth brings good fortune."
+      }
+    }
+  },
+  "H48": {
+    "name": "The",
+    "unicode": "Well",
+    "units": {
+      "H48-JUDGMENT": {
+        "label": "Judgment",
+        "original": "井：改邑不改井，无喪无得，往來井井。汔至亦未繘井。羸其瓶，凶。",
+        "translation": "The Well. The town may be changed, but the well cannot. It neither decreases nor increases. People come and go and draw from it. If the rope nearly reaches the water but the bucket is broken, misfortune."
+      },
+      "H48-L1": {
+        "label": "Line 1",
+        "original": "初六：井泥不食，舊井无禽。",
+        "translation": "A well so muddy that men will not drink of it; or an old well to which neither birds (nor other creatures) resort."
+      },
+      "H48-L2": {
+        "label": "Line 2",
+        "original": "九二：井谷射鮒，瓮敝漏。",
+        "translation": "A well from which by a hole the water escapes and flows away to the shrimps (and such small creatures among the grass), or one the water of which leaks away from a broken basket."
+      },
+      "H48-L3": {
+        "label": "Line 3",
+        "original": "九三：井渫不食，為我心惻，可用汲，王明，并受其福。",
+        "translation": "The well has been cleaned, but no one drinks from it. This causes sorrow, because its water can be used. If the king is wise, everyone shares the blessing."
+      },
+      "H48-L4": {
+        "label": "Line 4",
+        "original": "六四：井甃，无咎。",
+        "translation": "A well, the lining of which is well laid. There is no blame."
+      },
+      "H48-L5": {
+        "label": "Line 5",
+        "original": "九五：井冽，寒泉食。",
+        "translation": "A clear, limpid well, (the waters from) whose cold spring are (freely) drunk."
+      },
+      "H48-L6": {
+        "label": "Line 6",
+        "original": "上六：井收勿幕，有孚元吉。",
+        "translation": "The well is drawn from and left uncovered. Sincerity brings great good fortune."
+      }
+    }
+  },
+  "H49": {
+    "name": "Revolution",
+    "unicode": "革",
+    "units": {
+      "H49-JUDGMENT": {
+        "label": "Judgment",
+        "original": "革：巳日乃孚，元亨。利貞。悔亡。",
+        "translation": "Revolution is believed when its time has arrived. Supreme success; perseverance is favorable. Regret disappears."
+      },
+      "H49-L1": {
+        "label": "Line 1",
+        "original": "初九：鞏用黃牛之革。",
+        "translation": "Bound securely with the hide of a yellow ox. The time for change has not yet come."
+      },
+      "H49-L2": {
+        "label": "Line 2",
+        "original": "六二：巳日乃革之，征吉，无咎。",
+        "translation": "One is making his changes after some time has passed. Action taken will be fortunate. There is no blame."
+      },
+      "H49-L3": {
+        "label": "Line 3",
+        "original": "九三：征凶，貞厲，革言三就，有孚。",
+        "translation": "That action taken by its subject will be evil. Though he be steadfast and principled, his position is perilous. If the change (he contemplates) have been three times fully discussed, he will be believed in."
+      },
+      "H49-L4": {
+        "label": "Line 4",
+        "original": "九四：悔亡，有孚改命，吉。",
+        "translation": "Reason for regret disappearing (from its subject). He should be believed in; and though he change (existing) ordinances, good fortune follows."
+      },
+      "H49-L5": {
+        "label": "Line 5",
+        "original": "九五：大人虎變，未占有孚。",
+        "translation": "The great person (producing his changes) as the tiger (does when he) changes (his stripes). Before he divines (and proceeds to action), faith has been reposed in him."
+      },
+      "H49-L6": {
+        "label": "Line 6",
+        "original": "上六：君子豹變，小人革面，征凶，居貞吉。",
+        "translation": "The noble person changes like a leopard; the lesser person merely changes the face. Going forward brings misfortune; remaining correct brings good fortune."
+      }
+    }
+  },
+  "H50": {
+    "name": "The",
+    "unicode": "Cauldron",
+    "units": {
+      "H50-JUDGMENT": {
+        "label": "Judgment",
+        "original": "鼎：元吉，亨。",
+        "translation": "The Cauldron. Supreme good fortune and success."
+      },
+      "H50-L1": {
+        "label": "Line 1",
+        "original": "初六：鼎顛趾，利出否，得妾以其子，无咎。",
+        "translation": "The cauldron is overturned, its legs pointing upward; this is favorable for removing what is spoiled. One takes a concubine for the sake of her son. No blame."
+      },
+      "H50-L2": {
+        "label": "Line 2",
+        "original": "九二：鼎有實，我仇有疾，不我能即，吉。",
+        "translation": "The cauldron with the things (to be cooked) in it. (If its subject can say), ' My enemy dislikes me, but he cannot approach me,' good fortune follows."
+      },
+      "H50-L3": {
+        "label": "Line 3",
+        "original": "九三：鼎耳革，其行塞，雉膏不食，方雨虧悔，終吉。",
+        "translation": "The cauldron’s handles are altered, so it cannot be moved. Its rich food is not eaten. When rain comes, regret lessens. Good fortune in the end."
+      },
+      "H50-L4": {
+        "label": "Line 4",
+        "original": "九四：鼎折足，覆公餗，其形渥，凶。",
+        "translation": "The cauldron’s legs break; the prince’s meal is spilled and the vessel is soiled. Misfortune."
+      },
+      "H50-L5": {
+        "label": "Line 5",
+        "original": "六五：鼎黃耳金鉉，利貞。",
+        "translation": "The cauldron with yellow ears and rings of metal in them. There will be advantage through being steadfast and principled."
+      },
+      "H50-L6": {
+        "label": "Line 6",
+        "original": "上九：鼎玉鉉，大吉，无不利。",
+        "translation": "The cauldron has a jade carrying ring. Great good fortune; nothing is unfavorable."
+      }
+    }
+  },
+  "H51": {
+    "name": "Shock",
+    "unicode": "震",
+    "units": {
+      "H51-JUDGMENT": {
+        "label": "Judgment",
+        "original": "震：亨。震來虩虩，笑言啞啞。震驚百里，不喪匕鬯。",
+        "translation": "Thunder brings success. Shock comes with fear, then laughter and conversation. It terrifies for a hundred miles, yet the sacrificial spoon and wine are not lost."
+      },
+      "H51-L1": {
+        "label": "Line 1",
+        "original": "初九：震來虩虩，后笑言啞啞，吉。",
+        "translation": "One is, when the movement approaches, looking out and around with apprehension, and afterwards smiling and talking cheerfully. Good fortune follows."
+      },
+      "H51-L2": {
+        "label": "Line 2",
+        "original": "六二：震來厲，億喪貝，躋于九陵，勿逐，七日得。",
+        "translation": "Thunder comes with danger. Let go of your valuables and climb to high ground. Do not chase what was lost; after seven days it will return."
+      },
+      "H51-L3": {
+        "label": "Line 3",
+        "original": "六三：震蘇蘇，震行无眚。",
+        "translation": "Thunder causes agitation. Let the shock move one to action, and there is no blame."
+      },
+      "H51-L4": {
+        "label": "Line 4",
+        "original": "九四：震遂泥。",
+        "translation": "One is, amid the startling movements, supinely sinking (deeper) in the mud."
+      },
+      "H51-L5": {
+        "label": "Line 5",
+        "original": "六五：震往來厲，億无喪，有事。",
+        "translation": "One is going and coming amidst the startling movements (of the time), and always in peril; but perhaps he will not incur loss, and find business (which he can accomplish)."
+      },
+      "H51-L6": {
+        "label": "Line 6",
+        "original": "上六：震索索，視矍矍，征凶。震不于其躬，于其鄰，无咎。婚媾有言。",
+        "translation": "Thunder brings trembling and frightened glances. Going forward brings misfortune. If the shock has not reached oneself but only a neighbor, there is no blame; marriage brings criticism."
+      }
+    }
+  },
+  "H52": {
+    "name": "Keeping",
+    "unicode": "Still",
+    "units": {
+      "H52-JUDGMENT": {
+        "label": "Judgment",
+        "original": "艮：艮其背，不獲其身，行其庭，不見其人，无咎。",
+        "translation": "Keeping Still: keep the back still so the self is no longer felt. Walk in the courtyard without seeing the people there. No blame."
+      },
+      "H52-L1": {
+        "label": "Line 1",
+        "original": "初六：艮其趾，无咎，利永貞。",
+        "translation": "One is keeping his toes at rest. There will be no blame; but it will be favorable for him to be persistently steadfast and principled."
+      },
+      "H52-L2": {
+        "label": "Line 2",
+        "original": "六二：艮其腓，不拯其隨，其心不快。",
+        "translation": "One is keeping the calves of his legs at rest. He cannot help (the subject of the line above) whom he follows, and is dissatisfied in his mind."
+      },
+      "H52-L3": {
+        "label": "Line 3",
+        "original": "九三：艮其限，列其夤，厲薰心。",
+        "translation": "One is keeping his loins at rest, and separating the ribs (from the body below). The situation is perilous, and the heart glows with suppressed excitement."
+      },
+      "H52-L4": {
+        "label": "Line 4",
+        "original": "六四：艮其身，无咎。",
+        "translation": "One is keeping his trunk at rest. There is no blame."
+      },
+      "H52-L5": {
+        "label": "Line 5",
+        "original": "六五：艮其輔，言有序，悔亡。",
+        "translation": "Keep the jaws still and speak in an orderly way. Regret disappears."
+      },
+      "H52-L6": {
+        "label": "Line 6",
+        "original": "上九：敦艮，吉。",
+        "translation": "Noble stillness. Good fortune."
+      }
+    }
+  },
+  "H53": {
+    "name": "Development",
+    "unicode": "漸",
+    "units": {
+      "H53-JUDGMENT": {
+        "label": "Judgment",
+        "original": "漸：女歸吉，利貞。",
+        "translation": "Gradual Progress. The woman’s marriage brings good fortune. Perseverance is favorable."
+      },
+      "H53-L1": {
+        "label": "Line 1",
+        "original": "初六：鴻漸于干，小子厲，有言，无咎。",
+        "translation": "The wild goose gradually approaches the shore. The young son is in danger and there is talk, but no blame."
+      },
+      "H53-L2": {
+        "label": "Line 2",
+        "original": "六二：鴻漸于磐，飲食衎衎，吉。",
+        "translation": "The geese gradually approaching the large rocks, where they eat and drink joyfully and at ease. Good fortune follows."
+      },
+      "H53-L3": {
+        "label": "Line 3",
+        "original": "九三：鴻漸于陸，夫征不復，婦孕不育，凶；利禦寇。",
+        "translation": "The wild goose reaches the dry plateau. The husband goes out and does not return; the wife is pregnant but does not raise the child. Misfortune. It is favorable to resist robbers."
+      },
+      "H53-L4": {
+        "label": "Line 4",
+        "original": "六四：鴻漸于木，或得其桷，无咎。",
+        "translation": "The geese gradually advanced to the trees. They may light on the flat branches. There is no blame."
+      },
+      "H53-L5": {
+        "label": "Line 5",
+        "original": "九五：鴻漸于陵，婦三歲不孕，終莫之勝，吉。",
+        "translation": "The geese gradually advanced to the high mound. (It suggests the idea of) a wife who for three years does not become pregnant; but in the end the natural issue cannot be prevented. Good fortune follows."
+      },
+      "H53-L6": {
+        "label": "Line 6",
+        "original": "上九：鴻漸于陸，其羽可用為儀，吉。",
+        "translation": "The geese gradually advanced to the large heights (beyond). Their feathers can be used as ornaments. Good fortune follows."
+      }
+    }
+  },
+  "H54": {
+    "name": "The",
+    "unicode": "Marrying",
+    "units": {
+      "H54-JUDGMENT": {
+        "label": "Judgment",
+        "original": "歸妹：征凶，无攸利。",
+        "translation": "The Marrying Maiden. Going forward brings misfortune; nothing is favorable."
+      },
+      "H54-L1": {
+        "label": "Line 1",
+        "original": "初九：歸妹以娣，跛能履，征吉。",
+        "translation": "The marrying maiden becomes a secondary wife. A lame person can still walk. Going forward brings good fortune."
+      },
+      "H54-L2": {
+        "label": "Line 2",
+        "original": "九二：眇能視，利幽人之貞。",
+        "translation": "Her blind of one eye, and yet able to see. There will be advantage in her maintaining the steadfastness of a solitary widow."
+      },
+      "H54-L3": {
+        "label": "Line 3",
+        "original": "六三：歸妹以須，反歸以娣。",
+        "translation": "The younger sister who was to be married off in a mean position. She returns and accepts an ancillary position."
+      },
+      "H54-L4": {
+        "label": "Line 4",
+        "original": "九四：歸妹愆期，遲歸有時。",
+        "translation": "The younger sister who is to be married off protracting the time. She may be late in being married, but the time will come."
+      },
+      "H54-L5": {
+        "label": "Line 5",
+        "original": "六五：帝乙歸妹，其君之袂，不如其娣之袂良，月幾望，吉。",
+        "translation": "King Di Yi gives his younger sister in marriage. The princess’s sleeves are less splendid than those of her attendant. The moon is almost full. Good fortune."
+      },
+      "H54-L6": {
+        "label": "Line 6",
+        "original": "上六：女承筐无實，士刲羊无血，无攸利。",
+        "translation": "The woman holds a basket with no fruit; the man slaughters a sheep with no blood. Nothing is favorable."
+      }
+    }
+  },
+  "H55": {
+    "name": "Abundance",
+    "unicode": "豐",
+    "units": {
+      "H55-JUDGMENT": {
+        "label": "Judgment",
+        "original": "豐：亨。王假之，勿憂，宜日中。",
+        "translation": "Abundance brings success. The king attains it. Do not grieve; be like the sun at midday."
+      },
+      "H55-L1": {
+        "label": "Line 1",
+        "original": "初九：遇其配主，雖旬无咎，往有尚。",
+        "translation": "One is meeting with his mate. Though they are both of the same character, there will be no blame. Advance will call forth approval."
+      },
+      "H55-L2": {
+        "label": "Line 2",
+        "original": "六二：豐其蔀，日中見斗，往得疑疾，有孚發若，吉。",
+        "translation": "The screen is so dense that the Northern Dipper can be seen at noon. Going forward brings suspicion. Sincerity that becomes clear brings good fortune."
+      },
+      "H55-L3": {
+        "label": "Line 3",
+        "original": "九三：豐其沛，日中見沫，折其右肱，无咎。",
+        "translation": "One is with an (additional) screen of a large and thick banner, through which at midday he can see (the small) Mei star. (In the darkness) he breaks his right arm; but there will be no blame."
+      },
+      "H55-L4": {
+        "label": "Line 4",
+        "original": "九四：豐其蔀，日中見斗，遇其夷主，吉。",
+        "translation": "One is in a tent so large and thick that at midday he can see from it the constellation of the Bushel. But he meets with the subject of the (first) line, solid like himself. Good fortune follows."
+      },
+      "H55-L5": {
+        "label": "Line 5",
+        "original": "六五：來章，有慶譽，吉。",
+        "translation": "People of ability and distinction gather around. Congratulations and praise follow. Good fortune."
+      },
+      "H55-L6": {
+        "label": "Line 6",
+        "original": "上六：豐其屋，蔀其家，窺其戶，闃其无人，三歲不觌，凶。",
+        "translation": "His house is made abundant, yet his household is screened off. He peers through the gate and sees no one; for three years he sees no one. Misfortune."
+      }
+    }
+  },
+  "H56": {
+    "name": "The",
+    "unicode": "Wanderer",
+    "units": {
+      "H56-JUDGMENT": {
+        "label": "Judgment",
+        "original": "旅：小亨，旅貞吉。",
+        "translation": "The Traveler. Small success. The traveler’s perseverance brings good fortune."
+      },
+      "H56-L1": {
+        "label": "Line 1",
+        "original": "初六：旅瑣瑣，斯其所取災。",
+        "translation": "The traveler busies himself with petty matters and as a result brings disaster upon himself."
+      },
+      "H56-L2": {
+        "label": "Line 2",
+        "original": "六二：旅即次，懷其資，得童僕貞。",
+        "translation": "The stranger, occupying his lodging-house, carrying with him his means of livelihood, and provided with good and trusty servants."
+      },
+      "H56-L3": {
+        "label": "Line 3",
+        "original": "九三：旅焚其次，喪其童僕，貞厲。",
+        "translation": "The stranger, burning his lodging-house, and having lost his servants. However steadfast and principled he (try to) be, he will be in peril."
+      },
+      "H56-L4": {
+        "label": "Line 4",
+        "original": "九四：旅于處，得其資斧，我心不快。",
+        "translation": "The traveller in a resting-place, having (also) the means of livelihood and the axe, (but still saying)“ am not at ease in my mind.'"
+      },
+      "H56-L5": {
+        "label": "Line 5",
+        "original": "六五：射雉一矢亡，終以譽命。",
+        "translation": "One is shooting a pheasant. He will lose his arrow, but in the end he will obtain praise and a (high) charge."
+      },
+      "H56-L6": {
+        "label": "Line 6",
+        "original": "上九：鳥焚其巢，旅人先笑后號咷。喪牛于易，凶。",
+        "translation": "A bird burns its nest. The traveler first laughs, then cries. He loses his ox through carelessness. Misfortune."
+      }
+    }
+  },
+  "H57": {
+    "name": "The",
+    "unicode": "Gentle",
+    "units": {
+      "H57-JUDGMENT": {
+        "label": "Judgment",
+        "original": "巽：小亨。利有攸往。利見大人。",
+        "translation": "Gentle Penetration. Small success. It is favorable to have somewhere to go and to see the great person."
+      },
+      "H57-L1": {
+        "label": "Line 1",
+        "original": "初六：進退，利武人之貞。",
+        "translation": "One is (now) advancing, (now) receding. It would be favorable for him to have the steadfastness of a brave soldier."
+      },
+      "H57-L2": {
+        "label": "Line 2",
+        "original": "九二：巽在牀下，用史巫紛若，吉无咎。",
+        "translation": "The representative of Sun beneath a couch, and employing diviners and exorcists in a way bordering on confusion. There will be crood fortune and no blame."
+      },
+      "H57-L3": {
+        "label": "Line 3",
+        "original": "九三：頻巽，吝。",
+        "translation": "One is penetrating (only) by violent and repeated efforts. There will be regret."
+      },
+      "H57-L4": {
+        "label": "Line 4",
+        "original": "六四：悔亡，田獲三品。",
+        "translation": "All reason for regret (in its subject) passed away. He takes game for its threefold use in his hunting."
+      },
+      "H57-L5": {
+        "label": "Line 5",
+        "original": "九五：貞吉悔亡，无不利。无初有終，先庚三日，后庚三日，吉。",
+        "translation": "Perseverance brings good fortune and regret disappears. Nothing is unfavorable. No beginning, but an end; three days before the change and three days after it. Good fortune."
+      },
+      "H57-L6": {
+        "label": "Line 6",
+        "original": "上九：巽在牀下，喪其資斧，貞凶。",
+        "translation": "Penetrating beneath the bed, one loses property and the axe. Perseverance brings misfortune."
+      }
+    }
+  },
+  "H58": {
+    "name": "The",
+    "unicode": "Joyous",
+    "units": {
+      "H58-JUDGMENT": {
+        "label": "Judgment",
+        "original": "兌：亨。利貞。",
+        "translation": "Joy brings success. Perseverance is favorable."
+      },
+      "H58-L1": {
+        "label": "Line 1",
+        "original": "初九：和兌，吉。",
+        "translation": "The pleasure of (inward) harmony. Good fortune follows."
+      },
+      "H58-L2": {
+        "label": "Line 2",
+        "original": "九二：孚兌，吉，悔亡。",
+        "translation": "Sincere joy brings good fortune. Regret disappears."
+      },
+      "H58-L3": {
+        "label": "Line 3",
+        "original": "六三：來兌，凶。",
+        "translation": "One is bringing round himself whatever can give pleasure. Misfortune follows."
+      },
+      "H58-L4": {
+        "label": "Line 4",
+        "original": "九四：商兌，未寧，介疾有喜。",
+        "translation": "One is deliberating about what to seek his pleasure in, and not at rest. He borders on what would be injurious, but there will be cause for joy."
+      },
+      "H58-L5": {
+        "label": "Line 5",
+        "original": "九五：孚于剝，有厲。",
+        "translation": "One is trusting in one who would injure him. The situation is perilous."
+      },
+      "H58-L6": {
+        "label": "Line 6",
+        "original": "上六：引兌。",
+        "translation": "Seductive pleasure."
+      }
+    }
+  },
+  "H59": {
+    "name": "Dispersion",
+    "unicode": "渙",
+    "units": {
+      "H59-JUDGMENT": {
+        "label": "Judgment",
+        "original": "渙：亨。王假有廟，利涉大川，利貞。",
+        "translation": "Dispersion brings success. The king approaches his ancestral temple. It is favorable to cross the great river; perseverance is favorable."
+      },
+      "H59-L1": {
+        "label": "Line 1",
+        "original": "初六：用拯馬壯，吉。",
+        "translation": "One is engaged in rescuing (from the impending evil) and having (the assistance of) a strong horse. Good fortune follows."
+      },
+      "H59-L2": {
+        "label": "Line 2",
+        "original": "九二：渙奔其机，悔亡。",
+        "translation": "One is, amid the dispersion, hurrying to his contrivance (for security). All reason for regret will disappear."
+      },
+      "H59-L3": {
+        "label": "Line 3",
+        "original": "六三：渙其躬，无悔。",
+        "translation": "One is discarding any regard to his own person. There will be no regret."
+      },
+      "H59-L4": {
+        "label": "Line 4",
+        "original": "六四：渙其群，元吉。渙有丘，匪夷所思。",
+        "translation": "One is scattering the (different) parties (in the state); which leads to great good fortune. From the dispersion (he collects again good men standing out, a crowd) like a mound, which is what ordinary men would not have thought of."
+      },
+      "H59-L5": {
+        "label": "Line 5",
+        "original": "九五：渙汗其大號，渙王居，无咎。",
+        "translation": "Amid dispersal, great proclamations issue like sweat; the king disperses his treasury. No blame."
+      },
+      "H59-L6": {
+        "label": "Line 6",
+        "original": "上九：渙其血，去逖出，无咎。",
+        "translation": "Dispersing blood: depart and keep at a distance. No blame."
+      }
+    }
+  },
+  "H60": {
+    "name": "Limitation",
+    "unicode": "節",
+    "units": {
+      "H60-JUDGMENT": {
+        "label": "Judgment",
+        "original": "節：亨。苦節不可貞。",
+        "translation": "Limitation brings success. Bitter limitation cannot be maintained."
+      },
+      "H60-L1": {
+        "label": "Line 1",
+        "original": "初九：不出戶庭，无咎。",
+        "translation": "Not going out beyond the inner courtyard. No blame."
+      },
+      "H60-L2": {
+        "label": "Line 2",
+        "original": "九二：不出門庭，凶。",
+        "translation": "One is not quitting the courtyard inside his gate. Misfortune follows."
+      },
+      "H60-L3": {
+        "label": "Line 3",
+        "original": "六三：不節若，則嗟若，无咎。",
+        "translation": "One is with no appearance of observing the (proper) regulations, in which case we will see him lamenting. But there will be no one to blame (but himself)."
+      },
+      "H60-L4": {
+        "label": "Line 4",
+        "original": "六四：安節，亨。",
+        "translation": "One is quietly and naturally (attentive to all) regulations. There will be progress and success."
+      },
+      "H60-L5": {
+        "label": "Line 5",
+        "original": "九五：甘節，吉；往有尚。",
+        "translation": "One is sweetly and acceptably enacting his regulations. Good fortune follows. The onward progress with them will afford ground for admiration."
+      },
+      "H60-L6": {
+        "label": "Line 6",
+        "original": "上六：苦節，貞凶，悔亡。",
+        "translation": "Bitter limitation: perseverance brings misfortune. Regret disappears."
+      }
+    }
+  },
+  "H61": {
+    "name": "Inner",
+    "unicode": "Truth",
+    "units": {
+      "H61-JUDGMENT": {
+        "label": "Judgment",
+        "original": "中孚：豚魚吉，利涉大川，利貞。",
+        "translation": "Inner Truth moves even pigs and fish. Good fortune. It is favorable to cross the great river; perseverance is favorable."
+      },
+      "H61-L1": {
+        "label": "Line 1",
+        "original": "初九：虞吉，有他不燕。",
+        "translation": "One is resting (in himself). Good fortune follows. If he sought to any other, he would not find rest."
+      },
+      "H61-L2": {
+        "label": "Line 2",
+        "original": "九二：鳴鶴在陰，其子和之，我有好爵，吾與爾靡之。",
+        "translation": "One is (like) the crane crying out in her hidden retirement, and her young ones responding to her. (It is as if it were said), ' I have a cup of good spirits,' (and the response were), I will partake of it with you.'"
+      },
+      "H61-L3": {
+        "label": "Line 3",
+        "original": "六三：得敵，或鼓或罷，或泣或歌。",
+        "translation": "One is having met with his mate. Now he beats his drum, and now he leaves off. Now he weeps, and now he sings."
+      },
+      "H61-L4": {
+        "label": "Line 4",
+        "original": "六四：月几望，馬匹亡，无咎。",
+        "translation": "One is (like) the moon nearly full, and (like) a horse (in a chariot) whose fellow disappears. There is no blame."
+      },
+      "H61-L5": {
+        "label": "Line 5",
+        "original": "九五：有孚攣如，无咎。",
+        "translation": "One is perfectly sincere, and linking (others) to him in closest union. There is no blame."
+      },
+      "H61-L6": {
+        "label": "Line 6",
+        "original": "上九：翰音登于天，貞凶。",
+        "translation": "A cock’s call rises toward heaven. Perseverance brings misfortune."
+      }
+    }
+  },
+  "H62": {
+    "name": "Small",
+    "unicode": "Exceeding",
+    "units": {
+      "H62-JUDGMENT": {
+        "label": "Judgment",
+        "original": "小過：亨。利貞。可小事，不可大事。飛鳥遺之音，不宜上宜下，大吉。",
+        "translation": "Small Exceeding brings success; perseverance is favorable. Small matters may be done, great matters may not. The flying bird leaves a message: it is fitting to descend, not ascend. Great good fortune."
+      },
+      "H62-L1": {
+        "label": "Line 1",
+        "original": "初六：飛鳥以凶。",
+        "translation": "Suggests (the idea of) a bird flying, (and ascending) till the issue is evil."
+      },
+      "H62-L2": {
+        "label": "Line 2",
+        "original": "六二：過其祖，遇其妣；不及其君，遇其臣；无咎。",
+        "translation": "Passing the grandfather, one meets the grandmother; not reaching the ruler, one meets the minister. No blame."
+      },
+      "H62-L3": {
+        "label": "Line 3",
+        "original": "九三：弗過防之，從或戕之，凶。",
+        "translation": "One is taking no extraordinary precautions against danger; and some in consequence finding opportunity to assail and injure him. Misfortune follows."
+      },
+      "H62-L4": {
+        "label": "Line 4",
+        "original": "九四：无咎，弗過遇之。往厲必戒，勿用永貞。",
+        "translation": "One is falling into no blame, but meeting (the exigency of his situation), without exceeding (in his natural course). If he goes forward, there will be peril, and he must be cautious. There is no occasion to be using firmness perpetually."
+      },
+      "H62-L5": {
+        "label": "Line 5",
+        "original": "六五：密云不雨，自我西郊，公弋取彼在穴。",
+        "translation": "(suggests the idea) of dense clouds, but no rain, coming from our borders in the west. It also (shows) the prince shooting his arrow, and taking the bird in a cave."
+      },
+      "H62-L6": {
+        "label": "Line 6",
+        "original": "上六：弗遇過之，飛鳥離之，凶，是謂災眚。",
+        "translation": "Not meeting but passing beyond; the flying bird is caught in the net. Misfortune—this is calamity and harm."
+      }
+    }
+  },
+  "H63": {
+    "name": "After",
+    "unicode": "Completion",
+    "units": {
+      "H63-JUDGMENT": {
+        "label": "Judgment",
+        "original": "既濟：亨小。利貞。初吉終亂。",
+        "translation": "After Completion. Success in small matters; perseverance is favorable. Good fortune at the beginning, disorder at the end."
+      },
+      "H63-L1": {
+        "label": "Line 1",
+        "original": "初九：曳其輪，濡其尾，无咎。",
+        "translation": "The wheels are pulled back, and the fox’s tail becomes wet. There is no blame."
+      },
+      "H63-L2": {
+        "label": "Line 2",
+        "original": "六二：婦喪其茀，勿逐，七日得。",
+        "translation": "A wife who has lost her (carriage-)screen. There is no occasion to go in pursuit of it. In seven days she will find it."
+      },
+      "H63-L3": {
+        "label": "Line 3",
+        "original": "九三：高宗伐鬼方，三年克之，小人勿用。",
+        "translation": "Gao Zong attacked the Demon Region and conquered it after three years. Lesser people must not be employed."
+      },
+      "H63-L4": {
+        "label": "Line 4",
+        "original": "六四：繻有衣袽，終日戒。",
+        "translation": "One is with rags provided against any leak (in his boat), and on his guard all day long."
+      },
+      "H63-L5": {
+        "label": "Line 5",
+        "original": "九五：東鄰殺牛，不如西鄰之禴祭，實受其福。",
+        "translation": "One is (as) the neighbor in the east who slaughters an ox (for his sacrifice); but this is not equal to the (small) spring sacrifice of the neighbor in the west, whose sincerity receives the blessing."
+      },
+      "H63-L6": {
+        "label": "Line 6",
+        "original": "上六：濡其首，厲。",
+        "translation": "The head is immersed. Danger."
+      }
+    }
+  },
+  "H64": {
+    "name": "Before",
+    "unicode": "Completion",
+    "units": {
+      "H64-JUDGMENT": {
+        "label": "Judgment",
+        "original": "未濟：亨。小狐汔濟，濡其尾，无攸利。",
+        "translation": "Before Completion brings success. The young fox nearly crosses but wets its tail. Nothing is favorable."
+      },
+      "H64-L1": {
+        "label": "Line 1",
+        "original": "初六：濡其尾，吝。",
+        "translation": "One is (like a fox) whose tail gets immersed. There will be regret."
+      },
+      "H64-L2": {
+        "label": "Line 2",
+        "original": "九二：曳其輪，貞吉。",
+        "translation": "One is dragging back his (carriage-)wheel. With steadfast conduct good fortune follows."
+      },
+      "H64-L3": {
+        "label": "Line 3",
+        "original": "六三：未濟，征凶，利涉大川。",
+        "translation": "One is, with (the state of things) not yet remedied, advancing on; which will lead to evil. But there will be advantage in (trying to) cross the great stream."
+      },
+      "H64-L4": {
+        "label": "Line 4",
+        "original": "九四：貞吉，悔亡，震用伐鬼方，三年有賞于大國。",
+        "translation": "Steadfastness brings good fortune, and regret disappears. Act decisively in the campaign against the Demon Region. After three years, rewards come from the great kingdom."
+      },
+      "H64-L5": {
+        "label": "Line 5",
+        "original": "六五：貞吉，无悔，君子之光，有孚，吉。",
+        "translation": "Steadfastness brings good fortune, with no regret. The noble person shines with sincerity. Good fortune."
+      },
+      "H64-L6": {
+        "label": "Line 6",
+        "original": "上九：有孚于飲酒，无咎，濡其首，有孚失是。",
+        "translation": "There is sincerity in drinking wine. No blame. But if one wets the head, sincerity in what is right is lost."
+      }
+    }
+  }
+}
