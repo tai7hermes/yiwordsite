@@ -73,9 +73,9 @@ footer a{color:var(--gold)}
 .wings-table th{background:var(--ink);color:var(--gold);padding:10px 14px;text-align:left;font-weight:600}
 .wings-table td{border:1px solid var(--line);padding:10px 14px;vertical-align:top}
 .wings-table th:nth-child(1),.wings-table td:nth-child(1){width:80px;white-space:nowrap}
-.wings-table th:nth-child(2),.wings-table td:nth-child(2){width:90px;white-space:nowrap}
-.wings-table th:nth-child(3),.wings-table td:nth-child(3){width:auto;max-width:500px}
-.wings-table th:nth-child(4),.wings-table td:nth-child(4){width:100px;text-align:center;white-space:nowrap}
+.wings-table th:nth-child(2),.wings-table td:nth-child(2){width:70px;white-space:nowrap}
+.wings-table th:nth-child(3),.wings-table td:nth-child(3){width:auto;max-width:700px}
+.wings-table th:nth-child(4),.wings-table td:nth-child(4){width:80px;text-align:center;white-space:nowrap}
 .wings-table td:nth-child(4) a{display:inline-block;padding:8px 20px;background:var(--gold);color:var(--ink);border-radius:8px;font-size:1rem;font-weight:600;text-decoration:none;box-shadow:0 2px 4px rgba(197,160,40,.25)}
 .wings-table td:nth-child(4) a:hover{background:var(--ink);color:#fff;text-decoration:none}
 .warn{background:#fff3cd;border:1px solid #ffc107;border-radius:8px;padding:12px 16px;margin:12px 0;font-size:.9rem}
