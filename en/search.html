@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Search — YiWord</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header>
+  <div class="brand">YiWord <span>Yi = Word of Modus Operandi</span></div>
+  <div class="lang-switch">
+    <a href="search.html" class="active">EN</a>
+    <a href="../search.html">繁中</a>
+    <a href="../cn/search.html">简中</a>
+  </div>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="introduction.html">Introduction</a></li>
+    <li><a href="hexagrams.html">64 Hexagrams</a></li>
+    <li><a href="wings.html">Ten Wings</a></li>
+    <li><a href="terms.html">Glossary</a></li>
+    <li><a href="search.html" class="active">Search</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+<main>
+  <h1>Search</h1>
+  <div class="card">
+    <p>Search by hexagram name, line position, original text, translation, or term.</p>
+    <input type="text" id="search-box" placeholder="Enter search keyword…" style="width:100%;padding:10px;font-size:1rem;border:1px solid var(--line);border-radius:8px;margin:10px 0" oninput="doSearch(this.value)">
+    <div id="search-results"></div>
+  </div>
+  <p class="small">Search functionality under continuous improvement. Currently searches 64 hexagram names and Unicode symbols.</p>
+</main>
+<footer><p>© 2026 YiWord.com · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p></footer>
+<script>
+const HEXAGRAMS=[
+["H01","Qian","The Creative","䷀"],["H02","Kun","The Receptive","䷁"],
+["H03","Zhun","Difficulty","䷂"],["H04","Meng","Folly","䷃"],
+["H05","Xu","Waiting","䷄"],["H06","Song","Conflict","䷅"],
+["H07","Shi","The Army","䷆"],["H08","Bi","Holding Together","䷇"],
+["H09","Xiao Xu","Small Taming","䷈"],["H10","Lu","Treading","䷉"],
+["H11","Tai","Peace","䷊"],["H12","Pi","Standstill","䷋"],
+["H13","Tong Ren","Fellowship","䷌"],["H14","Da You","Great Possession","䷍"],
+["H15","Qian","Modesty","䷎"],["H16","Yu","Enthusiasm","䷏"],
+["H17","Sui","Following","䷐"],["H18","Gu","Decayed","䷑"],
+["H19","Lin","Approach","䷒"],["H20","Guan","Contemplation","䷓"],
+["H21","Shi He","Biting","䷔"],["H22","Bi","Grace","䷕"],
+["H23","Bo","Splitting","䷖"],["H24","Fu","Return","䷗"],
+["H25","Wu Wang","Innocence","䷘"],["H26","Da Xu","Great Taming","䷙"],
+["H27","Yi","Nourishment","䷚"],["H28","Da Guo","Great Exceeding","䷛"],
+["H29","Kan","Abysmal","䷜"],["H30","Li","Clinging","䷝"],
+["H31","Xian","Influence","䷞"],["H32","Heng","Duration","䷟"],
+["H33","Dun","Retreat","䷠"],["H34","Da Zhuang","Great Power","䷡"],
+["H35","Jin","Progress","䷢"],["H36","Ming Yi","Darkening","䷣"],
+["H37","Jia Ren","Family","䷤"],["H38","Kui","Opposition","䷥"],
+["H39","Jian","Obstruction","䷦"],["H40","Xie","Deliverance","䷧"],
+["H41","Sun","Decrease","䷨"],["H42","Yi","Increase","䷩"],
+["H43","Guai","Breakthrough","䷪"],["H44","Gou","Coming to Meet","䷫"],
+["H45","Cui","Gathering","䷬"],["H46","Sheng","Pushing Up","䷭"],
+["H47","Kun","Oppression","䷮"],["H48","Jing","The Well","䷯"],
+["H49","Ge","Revolution","䷰"],["H50","Ding","Caldron","䷱"],
+["H51","Zhen","Arousing","䷲"],["H52","Gen","Keeping Still","䷳"],
+["H53","Jian","Development","䷴"],["H54","Gui Mei","Marrying","䷵"],
+["H55","Feng","Abundance","䷶"],["H56","Lu","Wanderer","䷷"],
+["H57","Xun","Gentle","䷸"],["H58","Dui","Joyous","䷹"],
+["H59","Huan","Dispersion","䷺"],["H60","Jie","Limitation","䷻"],
+["H61","Zhong Fu","Inner Truth","䷼"],["H62","Xiao Guo","Small Exceeding","䷽"],
+["H63","Ji Ji","After Completion","䷾"],["H64","Wei Ji","Before Completion","䷿"],
+];
+function doSearch(q){
+  const r=document.getElementById('search-results');
+  if(!q.trim()){r.innerHTML='';return}
+  const ql=q.toLowerCase().trim();
+  const matches=HEXAGRAMS.filter(h=>h[0].toLowerCase().includes(ql)||h[1].toLowerCase().includes(ql)||h[2].toLowerCase().includes(ql)||h[3].toLowerCase().includes(ql));
+  r.innerHTML=matches.length?matches.map(h=>`<div class="card"><a href="hexagram/${h[0].toLowerCase()}.html"><span style="font-size:1.5rem">${h[3]}</span> <strong>${h[1]}</strong> · ${h[0]} · ${h[2]}</a></div>`).join(''):'<p class="small">No results found.</p>';
+}
+</script>
+</body>
+</html>
