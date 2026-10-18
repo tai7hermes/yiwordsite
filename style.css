@@ -95,3 +95,11 @@ footer a{color:var(--gold)}
   nav ul{flex-direction:column}
   nav a{padding:8px 12px}
 }
+
+/* Divination page styles */
+.div-table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.9rem}
+.div-table th{background:var(--ink);color:var(--gold);padding:8px 12px;text-align:left;font-weight:600}
+.div-table td{border:1px solid var(--line);padding:8px 12px;vertical-align:top}
+.div-table tr:nth-child(even) td{background:var(--light)}
+.bullet{padding-left:20px;margin:4px 0;position:relative}
+.bullet::before{content:"●";color:var(--gold);position:absolute;left:4px;font-size:.6rem;top:6px}
