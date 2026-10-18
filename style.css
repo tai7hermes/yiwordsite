@@ -52,6 +52,7 @@ tr:nth-child(even){background:var(--light)}
 .hex-header .hex-uni{font-size:3rem;color:var(--ink);line-height:1}
 .hex-header .hex-name{font-size:1.6rem;color:var(--ink);font-weight:700}
 .hex-header .hex-id{font-size:.85rem;color:var(--mid);margin-top:4px}
+.hex-num-label{font-size:1.2rem;font-weight:700;color:var(--ink);margin:12px 0 8px;padding:8px 14px;background:var(--pale);border-radius:8px;border-left:4px solid var(--gold)}
 @media(max-width:1023px){
   .hex-table .unit-label{width:70px}
 }
