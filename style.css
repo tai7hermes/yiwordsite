@@ -1,4 +1,5 @@
-:root{
+
+.case-entry .case-subhead{font-size:1.05rem;color:var(--ink);margin:20px 0 8px;padding-left:10px;border-left:3px solid var(--line)}:root{
   --ink:#1a1a2e; --gold:#c5a028; --jade:#2d6e5f; --pale:#f5f0e8; --sky:#e8e0d0;
   --red:#8b2c2c; --dark:#222; --mid:#5f5f5f; --light:#faf8f5; --line:#d8d0c0; --white:#fff;
   --yang:#d4a017; --yin:#2c3e50;
@@ -103,3 +104,13 @@ footer a{color:var(--gold)}
 .div-table tr:nth-child(even) td{background:var(--light)}
 .bullet{padding-left:20px;margin:4px 0;position:relative}
 .bullet::before{content:"●";color:var(--gold);position:absolute;left:4px;font-size:.6rem;top:6px}
+
+/* Case grid */
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:20px 0}
+.case-section{margin:30px 0;padding:20px 0;border-top:2px solid var(--sky)}
+.case-section h3{color:var(--ink);font-size:1.2rem;margin:16px 0 8px;border-left:4px solid var(--gold);padding-left:10px}
+.case-entry{background:var(--light);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:12px 0}
+.case-entry h4{font-size:1rem;color:var(--ink);margin:0 0 6px}
+.case-entry .case-meta{font-size:.8rem;color:var(--mid);margin:4px 0}
+.case-entry .case-tag{display:inline-block;background:var(--gold);color:var(--ink);font-size:.75rem;font-weight:700;padding:1px 6px;border-radius:4px;margin-right:6px}
+.case-entry p{font-size:.9rem;line-height:1.6;margin:6px 0}
