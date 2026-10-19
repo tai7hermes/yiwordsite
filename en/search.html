@@ -3,79 +3,74 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Search — YiWord</title>
+<title>Search — YiWord 易理</title>
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<header>
-  <div class="brand">YiWord <span>Yi = Word of Modus Operandi</span></div>
-  <div class="lang-switch"> <a href="../cn/search.html">简中</a> <a href="../search.html">繁中</a> <a href="index.html" class="active">EN</a> </div>
-</header>
-<nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="introduction.html">Introduction</a></li>
-    <li><a href="hexagrams.html">64 Hexagrams</a></li>
-    <li><a href="wings.html">Ten Wings</a></li>
-    <li><a href="../en/cases.html">Cases</a></li>
-    <li><a href="../en/divination.html">Divination</a></li>
-    <li><a href="terms.html">Glossary</a></li>
-    <li><a href="search.html" class="active">Search</a></li>
-    <li><a href="about.html">About</a></li>
-  </ul>
-</nav>
+<header><div class="brand">YiWord <span>Yi = Word of Modus Operandi</span></div><div class="lang-switch"><a href="../cn/search.html">简中</a> <a href="../search.html">繁中</a> <a href="../en/search.html" class="active">EN</a></div></header>
+<nav><ul><li><a href="../en/index.html">Home</a></li><li><a href="../en/introduction.html">Introduction</a></li><li><a href="../en/hexagrams.html">64 Hexagrams</a></li><li><a href="../en/wings.html">Ten Wings</a></li><li><a href="../en/cases.html">Cases</a></li><li><a href="../en/divination.html">Divination</a></li><li><a href="../en/terms.html">Glossary</a></li><li><a href="../en/search.html" class="active">Search</a></li><li><a href="../en/about.html">About</a></li></ul></nav>
 <main>
-<div class="back-nav"><a href="index.html">⌂ Home</a><a href="javascript:history.back()">← Back</a></div>
-  <h1>Search</h1>
-  <div class="card">
-    <p>Search by hexagram name, line position, original text, translation, or term.</p>
-    <input type="text" id="search-box" placeholder="Enter search keyword…" style="width:100%;padding:10px;font-size:1rem;border:1px solid var(--line);border-radius:8px;margin:10px 0" oninput="doSearch(this.value)">
-    <div id="search-results"></div>
-  </div>
-  <p class="small">Search functionality under continuous improvement. Currently searches 64 hexagram names and Unicode symbols.</p>
+<div class="back-nav"><a href="../en/index.html">⌂ Home</a><a href="javascript:history.back()">← Back</a></div>
+<div class="hex-num-label">Search</div>
+<h2>Full-Text Search</h2>
+<p>Search by hexagram name, line position, original text, translation, or case. Select a category to search within it.</p>
+<div class="search-filter-bar">
+<button class="search-filter-btn active" data-cat="all" onclick="setFilter('all')">All</button>
+<button class="search-filter-btn" data-cat="hexagram" onclick="setFilter('hexagram')">Hexagram</button>
+<button class="search-filter-btn" data-cat="line" onclick="setFilter('line')">Line</button>
+<button class="search-filter-btn" data-cat="original" onclick="setFilter('original')">Original</button>
+<button class="search-filter-btn" data-cat="translation" onclick="setFilter('translation')">Translation</button>
+<button class="search-filter-btn" data-cat="case" onclick="setFilter('case')">Cases</button>
+</div>
+<div class="search-input-wrap">
+<input type="text" id="search-box" placeholder="Enter search keyword…" oninput="doSearch(this.value)">
+<span id="search-count"></span>
+</div>
+<div id="search-results" class="search-results"></div>
 </main>
-<footer><p>© 2026 YiWord.com · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p></footer>
+<footer><p>© 2026 YiWord.com · <a href="../privacy.html">Privacy Policy</a> · <a href="../terms.html">Terms of Use</a></p></footer>
 <script>
-const HEXAGRAMS=[
-["H01","Qian","The Creative","䷀"],["H02","Kun","The Receptive","䷁"],
-["H03","Zhun","Difficulty","䷂"],["H04","Meng","Folly","䷃"],
-["H05","Xu","Waiting","䷄"],["H06","Song","Conflict","䷅"],
-["H07","Shi","The Army","䷆"],["H08","Bi","Holding Together","䷇"],
-["H09","Xiao Xu","Small Taming","䷈"],["H10","Lu","Treading","䷉"],
-["H11","Tai","Peace","䷊"],["H12","Pi","Standstill","䷋"],
-["H13","Tong Ren","Fellowship","䷌"],["H14","Da You","Great Possession","䷍"],
-["H15","Qian","Modesty","䷎"],["H16","Yu","Enthusiasm","䷏"],
-["H17","Sui","Following","䷐"],["H18","Gu","Decayed","䷑"],
-["H19","Lin","Approach","䷒"],["H20","Guan","Contemplation","䷓"],
-["H21","Shi He","Biting","䷔"],["H22","Bi","Grace","䷕"],
-["H23","Bo","Splitting","䷖"],["H24","Fu","Return","䷗"],
-["H25","Wu Wang","Innocence","䷘"],["H26","Da Xu","Great Taming","䷙"],
-["H27","Yi","Nourishment","䷚"],["H28","Da Guo","Great Exceeding","䷛"],
-["H29","Kan","Abysmal","䷜"],["H30","Li","Clinging","䷝"],
-["H31","Xian","Influence","䷞"],["H32","Heng","Duration","䷟"],
-["H33","Dun","Retreat","䷠"],["H34","Da Zhuang","Great Power","䷡"],
-["H35","Jin","Progress","䷢"],["H36","Ming Yi","Darkening","䷣"],
-["H37","Jia Ren","Family","䷤"],["H38","Kui","Opposition","䷥"],
-["H39","Jian","Obstruction","䷦"],["H40","Xie","Deliverance","䷧"],
-["H41","Sun","Decrease","䷨"],["H42","Yi","Increase","䷩"],
-["H43","Guai","Breakthrough","䷪"],["H44","Gou","Coming to Meet","䷫"],
-["H45","Cui","Gathering","䷬"],["H46","Sheng","Pushing Up","䷭"],
-["H47","Kun","Oppression","䷮"],["H48","Jing","The Well","䷯"],
-["H49","Ge","Revolution","䷰"],["H50","Ding","Caldron","䷱"],
-["H51","Zhen","Arousing","䷲"],["H52","Gen","Keeping Still","䷳"],
-["H53","Jian","Development","䷴"],["H54","Gui Mei","Marrying","䷵"],
-["H55","Feng","Abundance","䷶"],["H56","Lu","Wanderer","䷷"],
-["H57","Xun","Gentle","䷸"],["H58","Dui","Joyous","䷹"],
-["H59","Huan","Dispersion","䷺"],["H60","Jie","Limitation","䷻"],
-["H61","Zhong Fu","Inner Truth","䷼"],["H62","Xiao Guo","Small Exceeding","䷽"],
-["H63","Ji Ji","After Completion","䷾"],["H64","Wei Ji","Before Completion","䷿"],
-];
+var SEARCH_DATA=null;
+var currentFilter='all';
+fetch('search_index.json').then(r=>r.json()).then(d=>{SEARCH_DATA=d;});
+function setFilter(cat){
+  currentFilter=cat;
+  document.querySelectorAll('.search-filter-btn').forEach(b=>{b.classList.toggle('active',b.dataset.cat===cat);});
+  var box=document.getElementById('search-box');doSearch(box.value);
+}
 function doSearch(q){
-  const r=document.getElementById('search-results');
-  if(!q.trim()){r.innerHTML='';return}
-  const ql=q.toLowerCase().trim();
-  const matches=HEXAGRAMS.filter(h=>h[0].toLowerCase().includes(ql)||h[1].toLowerCase().includes(ql)||h[2].toLowerCase().includes(ql)||h[3].toLowerCase().includes(ql));
-  r.innerHTML=matches.length?matches.map(h=>`<div class="card"><a href="hexagram/${h[0].toLowerCase()}.html"><span style="font-size:1.5rem">${h[3]}</span> <strong>${h[1]}</strong> · ${h[0]} · ${h[2]}</a></div>`).join(''):'<p class="small">No results found.</p>';
+  if(!SEARCH_DATA)return;
+  q=q.trim().toLowerCase();
+  var results=[];
+  var cats=currentFilter==='all'?['hexagram','line','original','translation','case']:[currentFilter];
+  for(var ci=0;ci<cats.length;ci++){
+    var cat=cats[ci];var items=SEARCH_DATA[cat]||[];
+    var catLabel={hexagram:'Hexagram',line:'Line',original:'Original',translation:'Translation',case:'Case'}[cat];
+    for(var i=0;i<items.length;i++){
+      var item=items[i];
+      if(!q){continue;}
+      var titleLower=item.title.toLowerCase();
+      var textLower=(item.text||'').toLowerCase();
+      if(titleLower.indexOf(q)>=0||textLower.indexOf(q)>=0){
+        var snippet='';
+        var pos=textLower.indexOf(q);
+        if(pos>=0){
+          var start=Math.max(0,pos-20);var end=Math.min(textLower.length,pos+q.length+40);
+          snippet=(start>0?'…':'')+item.text.substring(start,end)+(end<textLower.length?'…':'');
+        }
+        results.push({cat:catLabel,title:item.title,link:item.link,text:snippet});
+      }
+    }
+  }
+  var container=document.getElementById('search-results');
+  document.getElementById('search-count').textContent=q?results.length+' results':'';
+  var html='';
+  for(var i=0;i<Math.min(results.length,200);i++){
+    var r=results[i];
+    html+='<div class="search-result-item"><span class="search-cat-tag">'+r.cat+'</span><a href="'+r.link+'">'+r.title+'</a><p class="search-snippet">'+(r.text||'')+'</p></div>';
+  }
+  if(results.length>200){html+='<p class="small">Showing first 200 of '+results.length+' results.</p>';}
+  container.innerHTML=html;
 }
 </script>
 </body>

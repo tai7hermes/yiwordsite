@@ -7,77 +7,72 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <div class="brand">YiWord <span>易理 = 處世之道</span></div>
-  <div class="lang-switch"> <a href="cn/search.html">简中</a> <a href="search.html" class="active">繁中</a> <a href="en/search.html">EN</a> </div>
-</header>
-<nav>
-  <ul>
-    <li><a href="index.html">首頁</a></li>
-    <li><a href="introduction.html">易經介紹</a></li>
-    <li><a href="hexagrams.html">六十四卦</a></li>
-    <li><a href="wings.html">易傳十翼</a></li>
-    <li><a href="cases.html">案例</a></li>
-    <li><a href="divination.html">占卜</a></li>
-    <li><a href="terms.html">名詞索引</a></li>
-    <li><a href="search.html" class="active">搜尋</a></li>
-    <li><a href="about.html">關於</a></li>
-  </ul>
-</nav>
+<header><div class="brand">YiWord <span>易理 = 處世之道</span></div><div class="lang-switch"><a href="cn/search.html">简中</a> <a href="search.html" class="active">繁中</a> <a href="en/search.html">EN</a></div></header>
+<nav><ul><li><a href="index.html">首頁</a></li><li><a href="introduction.html">易經介紹</a></li><li><a href="hexagrams.html">六十四卦</a></li><li><a href="wings.html">易傳十翼</a></li><li><a href="cases.html">案例</a></li><li><a href="divination.html">占卜</a></li><li><a href="terms.html">名詞索引</a></li><li><a href="search.html" class="active">搜尋</a></li><li><a href="about.html">關於</a></li></ul></nav>
 <main>
-<div class="back-nav"><a href="index.html">⌂ 回首頁</a><a href="javascript:history.back()">← 回上頁</a></div>
-  <h1>搜尋</h1>
-  <div class="card">
-    <p>依卦名、爻位、原文、翻譯、名詞搜尋。</p>
-    <input type="text" id="search-box" placeholder="輸入搜尋關鍵字…" style="width:100%;padding:10px;font-size:1rem;border:1px solid var(--line);border-radius:8px;margin:10px 0" oninput="doSearch(this.value)">
-    <div id="search-results"></div>
-  </div>
-  <p class="small">搜尋功能陸續完善中。目前可搜尋六十四卦卦名與 Unicode 符號。</p>
+<div class="back-nav"><a href="index.html">⌂ 首頁</a><a href="javascript:history.back()">← 回上頁</a></div>
+<div class="hex-num-label">搜尋</div>
+<h2>全文搜尋</h2>
+<p>依卦名、爻位、原文、翻譯、案例搜尋，或選擇分類搜尋特定類別。</p>
+<div class="search-filter-bar">
+<button class="search-filter-btn active" data-cat="all" onclick="setFilter('all')">全部</button>
+<button class="search-filter-btn" data-cat="hexagram" onclick="setFilter('hexagram')">卦名</button>
+<button class="search-filter-btn" data-cat="line" onclick="setFilter('line')">爻位</button>
+<button class="search-filter-btn" data-cat="original" onclick="setFilter('original')">原文</button>
+<button class="search-filter-btn" data-cat="translation" onclick="setFilter('translation')">翻譯</button>
+<button class="search-filter-btn" data-cat="case" onclick="setFilter('case')">案例</button>
+</div>
+<div class="search-input-wrap">
+<input type="text" id="search-box" placeholder="輸入搜尋關鍵字…" oninput="doSearch(this.value)">
+<span id="search-count"></span>
+</div>
+<div id="search-results" class="search-results"></div>
 </main>
-<footer>
-  <p>© 2026 YiWord.com · <a href="privacy.html">隱私權政策</a> · <a href="terms.html">使用條款</a></p>
-</footer>
+<footer><p>© 2026 YiWord.com · <a href="privacy.html">隱私權政策</a> · <a href="terms.html">使用條款</a></p></footer>
+<script src="search_index.json"></script>
 <script>
-const HEXAGRAMS=[
-["H01","乾","Qian","The Creative","䷀"],["H02","坤","Kun","The Receptive","䷁"],
-["H03","屯","Zhun","Difficulty at the Beginning","䷂"],["H04","蒙","Meng","Youthful Folly","䷃"],
-["H05","需","Xu","Waiting","䷄"],["H06","訟","Song","Conflict","䷅"],
-["H07","師","Shi","The Army","䷆"],["H08","比","Bi","Holding Together","䷇"],
-["H09","小畜","Xiao Xu","Small Taming","䷈"],["H10","履","Lu","Treading","䷉"],
-["H11","泰","Tai","Peace","䷊"],["H12","否","Pi","Standstill","䷋"],
-["H13","同人","Tong Ren","Fellowship","䷌"],["H14","大有","Da You","Great Possession","䷍"],
-["H15","謙","Qian","Modesty","䷎"],["H16","豫","Yu","Enthusiasm","䷏"],
-["H17","隨","Sui","Following","䷐"],["H18","蠱","Gu","Work on the Decayed","䷑"],
-["H19","臨","Lin","Approach","䷒"],["H20","觀","Guan","Contemplation","䷓"],
-["H21","噬嗑","Shi He","Biting Through","䷔"],["H22","賁","Bi","Grace","䷕"],
-["H23","剝","Bo","Splitting Apart","䷖"],["H24","復","Fu","Return","䷗"],
-["H25","無妄","Wu Wang","Innocence","䷘"],["H26","大畜","Da Xu","Great Taming","䷙"],
-["H27","頤","Yi","Nourishment","䷚"],["H28","大過","Da Guo","Great Exceeding","䷛"],
-["H29","坎","Kan","The Abysmal","䷜"],["H30","離","Li","The Clinging","䷝"],
-["H31","咸","Xian","Influence","䷞"],["H32","恆","Heng","Duration","䷟"],
-["H33","遯","Dun","Retreat","䷠"],["H34","大壯","Da Zhuang","Great Power","䷡"],
-["H35","晉","Jin","Progress","䷢"],["H36","明夷","Ming Yi","Darkening Light","䷣"],
-["H37","家人","Jia Ren","The Family","䷤"],["H38","睽","Kui","Opposition","䷥"],
-["H39","蹇","Jian","Obstruction","䷦"],["H40","解","Xie","Deliverance","䷧"],
-["H41","損","Sun","Decrease","䷨"],["H42","益","Yi","Increase","䷩"],
-["H43","夬","Guai","Breakthrough","䷪"],["H44","姤","Gou","Coming to Meet","䷫"],
-["H45","萃","Cui","Gathering Together","䷬"],["H46","升","Sheng","Pushing Upward","䷭"],
-["H47","困","Kun","Oppression","䷮"],["H48","井","Jing","The Well","䷯"],
-["H49","革","Ge","Revolution","䷰"],["H50","鼎","Ding","The Caldron","䷱"],
-["H51","震","Zhen","The Arousing","䷲"],["H52","艮","Gen","Keeping Still","䷳"],
-["H53","漸","Jian","Development","䷴"],["H54","歸妹","Gui Mei","Marrying Maiden","䷵"],
-["H55","豐","Feng","Abundance","䷶"],["H56","旅","Lu","The Wanderer","䷷"],
-["H57","巽","Xun","The Gentle","䷸"],["H58","兌","Dui","The Joyous","䷹"],
-["H59","渙","Huan","Dispersion","䷺"],["H60","節","Jie","Limitation","䷻"],
-["H61","中孚","Zhong Fu","Inner Truth","䷼"],["H62","小過","Xiao Guo","Small Exceeding","䷽"],
-["H63","既濟","Ji Ji","After Completion","䷾"],["H64","未濟","Wei Ji","Before Completion","䷿"],
-];
+var SEARCH_DATA=null;
+var currentFilter='all';
+fetch('search_index.json').then(r=>r.json()).then(d=>{SEARCH_DATA=d;});
+function setFilter(cat){
+  currentFilter=cat;
+  document.querySelectorAll('.search-filter-btn').forEach(b=>{b.classList.toggle('active',b.dataset.cat===cat);});
+  var box=document.getElementById('search-box');doSearch(box.value);
+}
 function doSearch(q){
-  const r=document.getElementById('search-results');
-  if(!q.trim()){r.innerHTML='';return}
-  const ql=q.toLowerCase().trim();
-  const matches=HEXAGRAMS.filter(h=>h[1].includes(q)||h[2].toLowerCase().includes(ql)||h[3].toLowerCase().includes(ql)||h[0].toLowerCase().includes(ql));
-  r.innerHTML=matches.length?matches.map(h=>`<div class="card"><a href="hexagram/${h[0].toLowerCase()}.html"><span class="hexagram-symbol" style="font-size:1.5rem">${h[4]}</span> <strong>${h[1]}</strong> · ${h[0]} · ${h[3]}</a></div>`).join(''):'<p class="small">未找到結果。</p>';
+  if(!SEARCH_DATA)return;
+  q=q.trim().toLowerCase();
+  var results=[];
+  var cats=currentFilter==='all'?['hexagram','line','original','translation','case']:[currentFilter];
+  for(var ci=0;ci<cats.length;ci++){
+    var cat=cats[ci];var items=SEARCH_DATA[cat]||[];
+    var catLabel={hexagram:'卦名',line:'爻位',original:'原文',translation:'翻譯',case:'案例'}[cat];
+    for(var i=0;i<items.length;i++){
+      var item=items[i];
+      if(!q){results.push({cat:catLabel,title:item.title,link:item.link,text:''});continue;}
+      var titleLower=item.title.toLowerCase();
+      var textLower=(item.text||'').toLowerCase();
+      if(titleLower.indexOf(q)>=0||textLower.indexOf(q)>=0){
+        var snippet='';
+        var pos=textLower.indexOf(q);
+        if(pos>=0){
+          var start=Math.max(0,pos-20);var end=Math.min(textLower.length,pos+q.length+40);
+          snippet=(start>0?'…':'')+item.text.substring(start,end)+(end<textLower.length?'…':'');
+        }
+        results.push({cat:catLabel,title:item.title,link:item.link,text:snippet});
+      }
+    }
+  }
+  if(!q){results=results.slice(0,0);}
+  var container=document.getElementById('search-results');
+  document.getElementById('search-count').textContent=q?results.length+' 筆結果':'';
+  var html='';
+  for(var i=0;i<Math.min(results.length,200);i++){
+    var r=results[i];
+    html+='<div class="search-result-item"><span class="search-cat-tag">'+r.cat+'</span><a href="'+r.link+'">'+r.title+'</a><p class="search-snippet">'+(r.text||'')+'</p></div>';
+  }
+  if(results.length>200){html+='<p class="small">顯示前 200 筆，共 '+results.length+' 筆結果。</p>';}
+  container.innerHTML=html;
 }
 </script>
 </body>
