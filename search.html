@@ -33,14 +33,16 @@
 <script>
 var SEARCH_DATA=null;
 var currentFilter='all';
-fetch('search_index.json').then(r=>r.json()).then(d=>{SEARCH_DATA=d;});
+var LOADING=true;
+fetch('search_index.json').then(r=>r.json()).then(d=>{SEARCH_DATA=d;LOADING=false;doSearch(document.getElementById('search-box').value);}).catch(e=>{LOADING=false;document.getElementById('search-results').innerHTML='<p class="small">搜尋資料載入失敗。</p>';});
 function setFilter(cat){
   currentFilter=cat;
   document.querySelectorAll('.search-filter-btn').forEach(b=>{b.classList.toggle('active',b.dataset.cat===cat);});
-  var box=document.getElementById('search-box');doSearch(box.value);
+  doSearch(document.getElementById('search-box').value);
 }
 function doSearch(q){
-  if(!SEARCH_DATA)return;
+  if(LOADING){document.getElementById('search-results').innerHTML='<p class="small">資料載入中…</p>';return;}
+  if(!SEARCH_DATA){document.getElementById('search-results').innerHTML='<p class="small">搜尋資料載入失敗。</p>';return;}
   q=q.trim().toLowerCase();
   var results=[];
   var cats=currentFilter==='all'?['hexagram','line','original','translation','case']:[currentFilter];
@@ -57,21 +59,29 @@ function doSearch(q){
         var pos=textLower.indexOf(q);
         if(pos>=0){
           var start=Math.max(0,pos-20);var end=Math.min(textLower.length,pos+q.length+40);
-          snippet=(start>0?'…':'')+item.text.substring(start,end)+(end<textLower.length?'…':'');
+          snippet=(start>0?'\u2026':'')+item.text.substring(start,end)+(end<textLower.length?'\u2026':'');
         }
         results.push({cat:catLabel,title:item.title,link:item.link,text:snippet});
       }
     }
   }
-  if(!q){results=results.slice(0,0);}
+  if(!q&&currentFilter!=='all'){results=results.slice(0,0);}
+  if(!q&&currentFilter==='all'){results=results.slice(0,0);}
   var container=document.getElementById('search-results');
   document.getElementById('search-count').textContent=q?results.length+' 筆結果':'';
   var html='';
-  for(var i=0;i<Math.min(results.length,200);i++){
-    var r=results[i];
-    html+='<div class="search-result-item"><span class="search-cat-tag">'+r.cat+'</span><a href="'+r.link+'">'+r.title+'</a><p class="search-snippet">'+(r.text||'')+'</p></div>';
+  if(!q&&currentFilter==='all'){
+    html='<p class="small">請輸入關鍵字開始搜尋，或選擇分類查看。</p>';
+  } else if(!q){
+    html='<p class="small">請輸入關鍵字搜尋「'+({hexagram:'卦名',line:'爻位',original:'原文',translation:'翻譯',case:'案例'}[currentFilter]||'')+'」分類。</p>';
+  } else {
+    for(var i=0;i<Math.min(results.length,200);i++){
+      var r=results[i];
+      html+='<div class="search-result-item"><span class="search-cat-tag">'+r.cat+'</span><a href="'+r.link+'">'+r.title+'</a><p class="search-snippet">'+(r.text||'')+'</p></div>';
+    }
+    if(results.length>200){html+='<p class="small">顯示前 200 筆，共 '+results.length+' 筆結果。</p>';}
+    if(results.length===0){html='<p class="small">找不到符合的結果。</p>';}
   }
-  if(results.length>200){html+='<p class="small">顯示前 200 筆，共 '+results.length+' 筆結果。</p>';}
   container.innerHTML=html;
 }
 </script>
