@@ -93,8 +93,6 @@ footer a{color:var(--gold)}
 @media(max-width:768px){
   .grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}
   .hexagram-symbol{font-size:1.8rem}
-  nav ul{flex-direction:column}
-  nav a{padding:8px 12px}
 }
 
 /* Divination page styles */
