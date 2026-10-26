@@ -151,3 +151,16 @@ footer a{color:var(--gold)}
 .search-result-item a:hover{color:var(--gold)}
 .search-snippet{font-size:.85rem;color:var(--mid);margin:4px 0 0;line-height:1.5}
 .search-cat-tag{display:inline-block;background:var(--ink);color:var(--gold);font-size:.7rem;font-weight:600;padding:2px 8px;border-radius:4px;margin-right:8px}
+
+/* Mobile nav: horizontal scroll */
+@media(max-width:767px){
+  nav ul{
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+    -ms-overflow-style:none;
+  }
+  nav ul::-webkit-scrollbar{display:none}
+  nav a{white-space:nowrap;font-size:.85rem;padding:8px 12px}
+}
