@@ -15,7 +15,7 @@ header .brand span{color:var(--gold);font-weight:400;font-size:.85rem;margin-lef
 nav{background:var(--jade);position:fixed;top:0;left:0;right:0;z-index:99;margin-top:60px;box-sizing:border-box}
 main{margin-top:160px}
 nav ul{display:flex;flex-wrap:wrap;list-style:none;max-width:1100px;margin:0 auto}
-nav a{display:block;padding:9px 16px;color:#fff;font-size:.95rem}
+nav a{display:block;padding:12px 16px;color:#fff;font-size:.95rem}
 nav a.active,nav a:hover{background:var(--ink);text-decoration:none}
 main{max-width:1100px;margin:160px auto 24px;padding:0 16px}
 h1{color:var(--ink);font-size:1.6rem;margin:18px 0 10px;border-left:6px solid var(--gold);padding-left:12px}
