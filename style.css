@@ -13,7 +13,7 @@ header .brand{font-size:1.6rem;font-weight:800;letter-spacing:.02em;display:flex
 header .brand span{color:var(--gold);font-weight:400;font-size:.85rem;margin-left:8px}
 .brand-logo{display:inline-block;vertical-align:middle;width:32px;height:32px;flex-shrink:0}
 nav{background:var(--jade);position:fixed;top:57px;left:0;right:0;z-index:100}
-main{margin-top:120px}
+main{margin-top:160px}
 nav ul{display:flex;flex-wrap:wrap;list-style:none;max-width:1100px;margin:0 auto}
 nav a{display:block;padding:9px 16px;color:#fff;font-size:.95rem}
 nav a.active,nav a:hover{background:var(--ink);text-decoration:none}
