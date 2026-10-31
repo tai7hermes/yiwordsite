@@ -13,11 +13,11 @@ header .brand{font-size:1.6rem;font-weight:800;letter-spacing:.02em;display:flex
 header .brand span{color:var(--gold);font-weight:400;font-size:.85rem;margin-left:8px}
 .brand-logo{display:inline-block;vertical-align:middle;width:32px;height:32px;flex-shrink:0}
 nav{background:var(--jade);position:fixed;top:0;left:0;right:0;z-index:99;margin-top:60px;box-sizing:border-box;padding:10px 0}
-main{margin-top:160px}
+main{margin-top:200px}
 nav ul{display:flex;flex-wrap:wrap;list-style:none;max-width:1100px;margin:0 auto}
 nav a{display:block;padding:12px 16px;color:#fff;font-size:.95rem}
 nav a.active,nav a:hover{background:var(--ink);text-decoration:none}
-main{max-width:1100px;margin:160px auto 24px;padding:0 16px}
+main{max-width:1100px;margin:200px auto 24px;padding:0 16px}
 h1{color:var(--ink);font-size:1.6rem;margin:18px 0 10px;border-left:6px solid var(--gold);padding-left:12px}
 h2{color:var(--ink);font-size:1.25rem;margin:26px 0 8px;border-bottom:2px solid var(--sky);padding-bottom:4px}
 h3{color:var(--jade);font-size:1.05rem;margin:18px 0 6px}
@@ -74,9 +74,9 @@ tr:nth-child(even){background:var(--light)}
 }
 footer{background:var(--ink);color:#aaa;text-align:center;padding:20px;margin-top:40px;font-size:.85rem}
 footer a{color:var(--gold)}
-.back-nav{display:flex;gap:14px;margin:20px 0 12px}
-.back-nav a{display:inline-block;padding:12px 24px;background:var(--gold);color:var(--ink);border-radius:10px;font-size:1.1rem;font-weight:600;text-decoration:none;transition:all .15s;box-shadow:0 2px 6px rgba(197,160,40,.3)}
-.back-nav a:hover{background:var(--ink);color:#fff;box-shadow:0 3px 10px rgba(26,26,46,.25)}
+.back-nav{display:flex;gap:10px;position:fixed;top:120px;left:0;right:0;z-index:98;padding:8px 16px;background:var(--light);border-bottom:1px solid var(--line)}
+.back-nav a{display:inline-block;padding:6px 14px;background:var(--gold);color:var(--ink);border-radius:8px;font-size:.85rem;font-weight:600;text-decoration:none;transition:all .15s;box-shadow:0 1px 3px rgba(197,160,40,.3)}
+.back-nav a:hover{background:var(--ink);color:#fff;box-shadow:0 2px 6px rgba(26,26,46,.25)}
 .back-nav a:active{transform:translateY(1px)}
 .wings-table{width:100%;border-collapse:collapse;margin:16px 0}
 .wings-table th{background:var(--ink);color:var(--gold);padding:10px 14px;text-align:left;font-weight:600}
