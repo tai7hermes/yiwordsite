@@ -9,8 +9,9 @@ body{font-family:"PingFang TC","Microsoft JhengHei","Noto Sans TC",sans-serif;co
 a{color:var(--jade);text-decoration:none}
 a:hover{text-decoration:underline}
 header{background:var(--ink);color:#fff;padding:14px 20px;position:sticky;top:0;z-index:10}
-header .brand{font-size:1.6rem;font-weight:800;letter-spacing:.02em}
+header .brand{font-size:1.6rem;font-weight:800;letter-spacing:.02em;display:flex;align-items:center;gap:8px}
 header .brand span{color:var(--gold);font-weight:400;font-size:.85rem;margin-left:8px}
+.brand-logo{display:inline-block;vertical-align:middle;width:32px;height:32px;flex-shrink:0}
 nav{background:var(--jade)}
 nav ul{display:flex;flex-wrap:wrap;list-style:none;max-width:1100px;margin:0 auto}
 nav a{display:block;padding:9px 16px;color:#fff;font-size:.95rem}
