@@ -74,7 +74,7 @@ tr:nth-child(even){background:var(--light)}
 }
 footer{background:var(--ink);color:#aaa;text-align:center;padding:20px;margin-top:40px;font-size:.85rem}
 footer a{color:var(--gold)}
-.back-nav{display:flex;gap:10px;position:fixed;top:155px;left:0;right:0;z-index:98;padding:8px 16px;background:var(--light);border-bottom:1px solid var(--line)}
+.back-nav{display:flex;gap:10px;position:fixed;top:155px;left:0;right:0;z-index:98;padding:8px 16px;background:var(--light);border-bottom:1px solid var(--line);max-width:1100px;margin:0 auto}
 .back-nav a{display:inline-block;padding:6px 14px;background:var(--gold);color:var(--ink);border-radius:8px;font-size:.85rem;font-weight:600;text-decoration:none;transition:all .15s;box-shadow:0 1px 3px rgba(197,160,40,.3)}
 .back-nav a:hover{background:var(--ink);color:#fff;box-shadow:0 2px 6px rgba(26,26,46,.25)}
 .back-nav a:active{transform:translateY(1px)}
