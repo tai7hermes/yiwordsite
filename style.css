@@ -157,3 +157,5 @@ footer a{color:var(--gold)}
   nav ul{flex-wrap:wrap;overflow:visible}
   nav a{white-space:nowrap;font-size:.85rem;padding:7px 10px}
 }
+
+.search-hint{font-size:.9rem;color:var(--mid);margin:8px 0 16px}
