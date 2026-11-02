@@ -165,3 +165,6 @@ footer a{color:var(--gold)}
 .hexagram-accordion-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:20px 0}
 .wings-accordion-list{margin:20px 0}
 @media(max-width:480px){.hexagram-accordion-grid{grid-template-columns:1fr}}
+
+.hexagram-card-img{margin:16px 0;text-align:center}
+.hexagram-card-img img{max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
