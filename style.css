@@ -169,9 +169,9 @@ footer a{color:var(--gold)}
 .hexagram-card-img{margin:16px 0;text-align:center}
 .hexagram-card-img img{max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
 .entry-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:30px 0}
-.entry-card{display:block;background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px;text-decoration:none;color:var(--dark);transition:all .2s;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.entry-card{display:block;background:#fff;border:2px solid var(--line);border-radius:12px;padding:20px;text-decoration:none;color:var(--dark);transition:all .2s;box-shadow:0 2px 6px rgba(0,0,0,.06)}
 .entry-card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 4px 12px rgba(197,160,40,.15)}
 .entry-card h3{color:var(--ink);font-size:1.1rem;margin:0 0 8px}
 .entry-card p{color:var(--mid);font-size:.9rem;margin:0 0 12px;line-height:1.6}
 .entry-link{color:var(--jade);font-weight:600;font-size:.9rem}
-@media(max-width:768px){.entry-cards{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){.entry-cards{grid-template-columns:1fr 1fr;gap:12px}}
