@@ -13,14 +13,14 @@
 <div class="back-nav"><a href="index.html">⌂ 回首頁</a><a href="javascript:history.back()">← 回上頁</a></div>
 <div class="hex-num-label">搜尋</div>
 <h2>全文搜尋</h2>
-<p>依卦名、爻位、原文、翻譯、案例搜尋，或選擇分類搜尋特定類別。</p>
+<p>依卦名、爻位、原文、翻譯、事件搜尋，或選擇分類搜尋特定類別。</p>
 <div class="search-filter-bar">
 <button class="search-filter-btn active" data-cat="all" onclick="setFilter('all')">全部</button>
 <button class="search-filter-btn" data-cat="hexagram" onclick="setFilter('hexagram')">卦名</button>
 <button class="search-filter-btn" data-cat="line" onclick="setFilter('line')">爻位</button>
 <button class="search-filter-btn" data-cat="original" onclick="setFilter('original')">原文</button>
 <button class="search-filter-btn" data-cat="translation" onclick="setFilter('translation')">翻譯</button>
-<button class="search-filter-btn" data-cat="case" onclick="setFilter('case')">案例</button>
+<button class="search-filter-btn" data-cat="case" onclick="setFilter('case')">事件</button>
 </div>
 <div class="search-input-wrap">
 <input type="text" id="search-box" placeholder="輸入搜尋關鍵字…" oninput="doSearch(this.value)">
@@ -48,7 +48,7 @@ function doSearch(q){
   var cats=currentFilter==='all'?['hexagram','line','original','translation','case']:[currentFilter];
   for(var ci=0;ci<cats.length;ci++){
     var cat=cats[ci];var items=SEARCH_DATA[cat]||[];
-    var catLabel={hexagram:'卦名',line:'爻位',original:'原文',translation:'翻譯',case:'案例'}[cat];
+    var catLabel={hexagram:'卦名',line:'爻位',original:'原文',translation:'翻譯',case:'事件'}[cat];
     for(var i=0;i<items.length;i++){
       var item=items[i];
       if(!q){results.push({cat:catLabel,title:item.title,link:item.link,text:''});continue;}
@@ -73,7 +73,7 @@ function doSearch(q){
   if(!q&&currentFilter==='all'){
     html='<p class="small">請輸入關鍵字開始搜尋，或選擇分類查看。</p>';
   } else if(!q){
-    html='<p class="small">請輸入關鍵字搜尋「'+({hexagram:'卦名',line:'爻位',original:'原文',translation:'翻譯',case:'案例'}[currentFilter]||'')+'」分類。</p>';
+    html='<p class="small">請輸入關鍵字搜尋「'+({hexagram:'卦名',line:'爻位',original:'原文',translation:'翻譯',case:'事件'}[currentFilter]||'')+'」分類。</p>';
   } else {
     for(var i=0;i<Math.min(results.length,200);i++){
       var r=results[i];
