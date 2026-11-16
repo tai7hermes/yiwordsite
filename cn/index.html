@@ -91,7 +91,13 @@
 (function(){
   var track=document.getElementById('carousel-track');
   if(!track)return;
-  var imgs=track.querySelectorAll('.carousel-img');
+  var imgs=Array.prototype.slice.call(track.querySelectorAll('.carousel-img'));
+  // shuffle once per load
+  for(var i=imgs.length-1;i>0;i--){
+    var j=Math.floor(Math.random()*(i+1));
+    var t=imgs[i];imgs[i]=imgs[j];imgs[j]=t;
+  }
+  imgs.forEach(function(im){track.appendChild(im);});
   var n=imgs.length,cur=0;
   imgs[0].classList.add('active');
   setInterval(function(){
