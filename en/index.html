@@ -25,6 +25,19 @@
   </ul>
 </nav>
 <main>
+<div class="carousel" id="hero-carousel"><div class="carousel-track" id="carousel-track">
+    <img class="carousel-img" src="../images/carousel/carousel-01.webp" alt="YiWord illustration 1" loading="eager">
+    <img class="carousel-img" src="../images/carousel/carousel-02.webp" alt="YiWord illustration 2" loading="lazy">
+    <img class="carousel-img" src="../images/carousel/carousel-03.webp" alt="YiWord illustration 3" loading="lazy">
+    <img class="carousel-img" src="../images/carousel/carousel-04.webp" alt="YiWord illustration 4" loading="lazy">
+    <img class="carousel-img" src="../images/carousel/carousel-05.webp" alt="YiWord illustration 5" loading="lazy">
+    <img class="carousel-img" src="../images/carousel/carousel-06.webp" alt="YiWord illustration 6" loading="lazy">
+    <img class="carousel-img" src="../images/carousel/carousel-07.webp" alt="YiWord illustration 7" loading="lazy">
+    <img class="carousel-img" src="../images/carousel/carousel-08.webp" alt="YiWord illustration 8" loading="lazy">
+    <img class="carousel-img" src="../images/carousel/carousel-09.webp" alt="YiWord illustration 9" loading="lazy">
+    <img class="carousel-img" src="../images/carousel/carousel-10.webp" alt="YiWord illustration 10" loading="lazy">
+  </div></div>
+
 <div class="back-nav"><a href="index.html">⌂ Home</a></div>
   <h1>YiWord Yi = Word of Modus Operandi</h1>
   <p>The <em>Yijing</em> (Book of Changes) uses yin and yang lines, trigrams, and 64 hexagrams with 384 line positions to describe how to recognize situations, choose actions, and bear consequences in a changing world. This site provides original text, translation, and commentary in three languages: Traditional Chinese, Simplified Chinese, and English.</p>
@@ -72,5 +85,22 @@
 <footer>
   <p>© 2026 YiWord.com · <a href="privacy.html">Privacy</a> · <a href="terms-of-use.html">Terms of Use</a></p>
 </footer>
+
+<script>
+(function(){
+  var track=document.getElementById('carousel-track');
+  if(!track)return;
+  var imgs=track.querySelectorAll('.carousel-img');
+  var n=imgs.length,cur=0;
+  imgs[0].classList.add('active');
+  setInterval(function(){
+    imgs[cur].classList.remove('active');
+    cur=(cur+1)%n;
+    imgs[cur].classList.add('active');
+    track.style.transform='translateX(-'+(cur*100)+'%)';
+  },4000);
+})();
+</script>
+
 </body>
 </html>
