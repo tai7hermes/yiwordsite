@@ -91,17 +91,32 @@
   var track=document.getElementById('carousel-track');
   if(!track)return;
   var imgs=Array.prototype.slice.call(track.querySelectorAll('.carousel-img'));
-  // shuffle once per load
-  for(var i=imgs.length-1;i>0;i--){
-    var j=Math.floor(Math.random()*(i+1));
-    var t=imgs[i];imgs[i]=imgs[j];imgs[j]=t;
+  function shuffle(keepFirst){
+    for(var i=imgs.length-1;i>0;i--){
+      var j=Math.floor(Math.random()*(i+1));
+      var t=imgs[i];imgs[i]=imgs[j];imgs[j]=t;
+    }
+    if(keepFirst){
+      var last=imgs[imgs.length-1];
+      imgs.splice(imgs.indexOf(last),1);
+      imgs.unshift(last);
+    }
+    imgs.forEach(function(im){track.appendChild(im);});
   }
-  imgs.forEach(function(im){track.appendChild(im);});
+  shuffle(false);
   var n=imgs.length,cur=0;
   imgs[0].classList.add('active');
   setInterval(function(){
     imgs[cur].classList.remove('active');
-    cur=(cur+1)%n;
+    cur=cur+1;
+    if(cur>=n){ // full cycle done -> reshuffle, keep last image as new first
+      var last=imgs[n-1];
+      shuffle(true);
+      cur=0;
+      imgs[0].classList.add('active');
+      track.style.transform='translateX(0%)';
+      return;
+    }
     imgs[cur].classList.add('active');
     track.style.transform='translateX(-'+(cur*100)+'%)';
   },4000);
