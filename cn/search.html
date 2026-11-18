@@ -52,6 +52,8 @@ function setFilter(cat){
 function doSearch(q){
   if(!SEARCH_DATA)return;
   q=q.trim().toLowerCase();
+  var hexQuery=q.match(/^第?(\d{1,2})卦$/);
+  var hexNum=hexQuery?parseInt(hexQuery[1],10):null;
   var results=[];
   var cats=currentFilter==='all'?['hexagram','line','original','translation','case']:[currentFilter];
   for(var ci=0;ci<cats.length;ci++){
@@ -62,7 +64,8 @@ function doSearch(q){
       if(!q){continue;}
       var titleLower=item.title.toLowerCase();
       var textLower=(item.text||'').toLowerCase();
-      if(titleLower.indexOf(q)>=0||textLower.indexOf(q)>=0){
+      var hexId=item.hex_id;var hexMatch=hexNum!=null&&hexId==='H'+(hexNum<10?'0'+hexNum:hexNum);
+      if(hexMatch||titleLower.indexOf(q)>=0||textLower.indexOf(q)>=0){
         var snippet='';
         var pos=textLower.indexOf(q);
         if(pos>=0){
