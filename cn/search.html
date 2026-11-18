@@ -43,7 +43,7 @@
 <script>
 var SEARCH_DATA=null;
 var currentFilter='all';
-fetch('search_index.json').then(r=>r.json()).then(d=>{SEARCH_DATA=d;});
+fetch('search_index.json?v=20261116').then(r=>r.json()).then(d=>{SEARCH_DATA=d;});
 function setFilter(cat){
   currentFilter=cat;
   document.querySelectorAll('.search-filter-btn').forEach(b=>{b.classList.toggle('active',b.dataset.cat===cat);});

@@ -44,7 +44,7 @@
 var SEARCH_DATA=null;
 var currentFilter='all';
 var LOADING=true;
-fetch('search_index.json').then(r=>r.json()).then(d=>{SEARCH_DATA=d;LOADING=false;doSearch(document.getElementById('search-box').value);}).catch(e=>{LOADING=false;document.getElementById('search-results').innerHTML='<p class="small">搜尋資料載入失敗。</p>';});
+fetch('search_index.json?v=20261116').then(r=>r.json()).then(d=>{SEARCH_DATA=d;LOADING=false;doSearch(document.getElementById('search-box').value);}).catch(e=>{LOADING=false;document.getElementById('search-results').innerHTML='<p class="small">搜尋資料載入失敗。</p>';});
 function setFilter(cat){
   currentFilter=cat;
   document.querySelectorAll('.search-filter-btn').forEach(b=>{b.classList.toggle('active',b.dataset.cat===cat);});
